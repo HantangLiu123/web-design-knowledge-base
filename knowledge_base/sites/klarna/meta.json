@@ -1,0 +1,41 @@
+{
+  "slug": "klarna",
+  "name": "Klarna",
+  "url": "https://www.klarna.com",
+  "category": "Modern Fintech & Banking",
+  "rank": 10,
+  "design_style": "Playful Pink / Installments Timeline UI",
+  "ui_highlights": "Shopping-first fintech; transparent 'Pay in 4' installment schedule visualizer; curated wishlist boards.",
+  "patterns_to_imitate": "Visual payment schedule timeline (Today",
+  "key_components": [
+    "2"
+  ],
+  "recommended_stack": [
+    "4"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "-apple-system",
+      "Arial",
+      "Barlow",
+      "BlinkMacSystemFont",
+      "Klarna Text",
+      "Klarna Title",
+      "Lato",
+      "Roboto",
+      "Roboto Condensed",
+      "Roboto Condensed Title",
+      "Segoe UI",
+      "inherit",
+      "sans-serif",
+      "sans-serif)"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

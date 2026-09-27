@@ -1,0 +1,47 @@
+{
+  "slug": "wired",
+  "name": "Wired",
+  "url": "https://www.wired.com",
+  "category": "Editorial, Media & Digital Storytelling",
+  "rank": 5,
+  "design_style": "Tech-Forward Magazine Grid / Gear Review Cards",
+  "ui_highlights": "Modern technical magazine layout; high-contrast borders; gear review breakdown cards (Pros/Cons/Specs).",
+  "patterns_to_imitate": "Product review 'The Good / The Bad' cards; pull-quote typography; author byline cards with social links.",
+  "key_components": [
+    "Pros & Cons Card",
+    "Pull-Quote Callout",
+    "Byline Card",
+    "Review Summary Box"
+  ],
+  "recommended_stack": [
+    "React",
+    "Webpack",
+    "Custom Design System"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Apercu",
+      "Breve Text",
+      "BreveText",
+      "LabGrotesque",
+      "Proxima Nova",
+      "ProximaNova",
+      "WIRED Display",
+      "WIRED Display Slab",
+      "WIRED Mono",
+      "WiredDisplay",
+      "WiredDisplaySlab",
+      "WiredMono",
+      "helvetica",
+      "inherit",
+      "monospace"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

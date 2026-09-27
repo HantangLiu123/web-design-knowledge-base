@@ -1,0 +1,48 @@
+{
+  "slug": "brex",
+  "name": "Brex",
+  "url": "https://www.brex.com",
+  "category": "Modern Fintech & Banking",
+  "rank": 8,
+  "design_style": "High-Contrast Corporate / Global Expense Management",
+  "ui_highlights": "Global enterprise card and travel platform; multi-currency spend dashboard; interactive budget manager.",
+  "patterns_to_imitate": "Budget allocation hierarchy tree; travel itinerary booking interface; automated receipt policy builder.",
+  "key_components": [
+    "Budget Tree View",
+    "Travel Itinerary Card",
+    "Corporate Card Tile"
+  ],
+  "recommended_stack": [
+    "Next.js",
+    "Tailwind CSS",
+    "Radix UI"
+  ],
+  "detected_frameworks": [
+    "Next.js"
+  ],
+  "typography": {
+    "font_families": [
+      "-apple-system",
+      "Apple Color Emoji",
+      "Arial",
+      "BlinkMacSystemFont",
+      "Helvetica",
+      "Roboto",
+      "Segoe UI",
+      "Segoe UI Emoji",
+      "Segoe UI Symbol",
+      "Space Mono",
+      "Space Mono Fallback",
+      "bronzea",
+      "bronzea Fallback",
+      "flecha",
+      "flecha Fallback"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

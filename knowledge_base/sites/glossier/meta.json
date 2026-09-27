@@ -1,0 +1,37 @@
+{
+  "slug": "glossier",
+  "name": "Glossier",
+  "url": "https://www.glossier.com",
+  "category": "E-Commerce & Direct-to-Consumer (D2C)",
+  "rank": 8,
+  "design_style": "Millennial Playful Beauty / Shade Matcher",
+  "ui_highlights": "Accessible beauty commerce; interactive foundation shade finder; customer lookbook integrated with product.",
+  "patterns_to_imitate": "Shade finder tool with diverse model photography; sticky Add to Bag bar; customer review photo gallery filter.",
+  "key_components": [
+    "Shade Finder Tool",
+    "Review Photo Filter",
+    "Sticky Mobile Add-to-Cart"
+  ],
+  "recommended_stack": [
+    "Shopify Plus",
+    "React",
+    "GraphQL"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Apercu",
+      "Apercu Mono",
+      "Gill Sans",
+      "inherit",
+      "monospace",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

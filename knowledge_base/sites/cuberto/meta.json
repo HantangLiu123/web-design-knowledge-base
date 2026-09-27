@@ -1,0 +1,36 @@
+{
+  "slug": "cuberto",
+  "name": "Cuberto",
+  "url": "https://cuberto.com",
+  "category": "Creative Studios & Interactive Experiences",
+  "rank": 6,
+  "design_style": "Liquid Organic Motion / Gooey Morphing Cursor",
+  "ui_highlights": "Pioneers of morphing cursor interactions; liquid SVG gooey filters; smooth mobile-like gestures.",
+  "patterns_to_imitate": "Custom cursor that morphs into play buttons/drag badges; elastic hover pull; liquid page transitions.",
+  "key_components": [
+    "Morphing Cursor Pill",
+    "Elastic Drag Button",
+    "Contact Form Drawer"
+  ],
+  "recommended_stack": [
+    "GSAP",
+    "Canvas",
+    "Three.js",
+    "Swiper"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Manrope",
+      "Suisse Intl",
+      "inherit",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

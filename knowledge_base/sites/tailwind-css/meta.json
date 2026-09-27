@@ -1,0 +1,49 @@
+{
+  "slug": "tailwind-css",
+  "name": "Tailwind CSS",
+  "url": "https://tailwindcss.com",
+  "category": "Developer Tools & Infrastructure",
+  "rank": 6,
+  "design_style": "Clean Utility Documentation / Side-by-Side Sandbox",
+  "ui_highlights": "The benchmark for developer documentation; live side-by-side utility code and component preview; quick search.",
+  "patterns_to_imitate": "Instant modal search (Cmd+K); side-by-side code/preview toggle; responsive viewport simulator; copy snippet badges.",
+  "key_components": [
+    "Doc Search Modal",
+    "Code Playground Sandbox",
+    "Viewport Resizer",
+    "API Pill Tags"
+  ],
+  "recommended_stack": [
+    "Next.js",
+    "Tailwind CSS",
+    "Headless UI"
+  ],
+  "detected_frameworks": [
+    "Tailwind CSS"
+  ],
+  "typography": {
+    "font_families": [
+      "-apple-system",
+      "Apple Color Emoji",
+      "Arial",
+      "BlinkMacSystemFont",
+      "Consolas",
+      "Courier New",
+      "Helvetica Neue",
+      "Liberation Mono",
+      "Menlo",
+      "Monaco",
+      "Noto Color Emoji\")",
+      "Noto Sans",
+      "Roboto",
+      "SFMono-Regular",
+      "Segoe UI"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

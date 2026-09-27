@@ -1,0 +1,49 @@
+{
+  "slug": "loom",
+  "name": "Loom",
+  "url": "https://www.loom.com",
+  "category": "SaaS & Productivity",
+  "rank": 7,
+  "design_style": "Vibrant SaaS / Video-First Productivity",
+  "ui_highlights": "Interactive video player controls, instant AI-generated video summaries, and emoji timeline reactions.",
+  "patterns_to_imitate": "Interactive video playback timeline; floating webcam bubble; inline video transcription scrub; quick sharing drawer.",
+  "key_components": [
+    "Video Scrubber",
+    "Floating Bubble",
+    "Reaction Emojis",
+    "Transcript Viewer"
+  ],
+  "recommended_stack": [
+    "React",
+    "WebRTC",
+    "Tailwind CSS"
+  ],
+  "detected_frameworks": [
+    "Next.js"
+  ],
+  "typography": {
+    "font_families": [
+      "-apple-system",
+      "Apple Color Emoji",
+      "Arial",
+      "BlinkMacSystemFont",
+      "Charlie Display",
+      "Charlie Text",
+      "Consolas",
+      "Courier New",
+      "Helvetica Neue",
+      "Liberation Mono",
+      "Menlo",
+      "Monaco",
+      "Noto Color Emoji",
+      "Noto Sans",
+      "Roboto"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

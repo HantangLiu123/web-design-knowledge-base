@@ -1,0 +1,35 @@
+{
+  "slug": "the-new-york-times-visuals",
+  "name": "The New York Times (Visuals)",
+  "url": "https://www.nytimes.com",
+  "category": "Editorial, Media & Digital Storytelling",
+  "rank": 2,
+  "design_style": "Journalistic Authority / Cheltenham Multi-Column Grid",
+  "ui_highlights": "Gold standard for visual investigations and data journalism; 3D terrain maps; interactive timelines.",
+  "patterns_to_imitate": "Reading progress indicators; multi-column editorial grid; interactive explainer graphics; footnotes popovers.",
+  "key_components": [
+    "Editorial Progress Bar",
+    "Footnote Popover",
+    "Interactive Timeline",
+    "3D Map"
+  ],
+  "recommended_stack": [
+    "Custom NYT Framework",
+    "D3.js",
+    "Three.js",
+    "React"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

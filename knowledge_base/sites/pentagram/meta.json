@@ -1,0 +1,46 @@
+{
+  "slug": "pentagram",
+  "name": "Pentagram",
+  "url": "https://www.pentagram.com",
+  "category": "Creative Studios & Interactive Experiences",
+  "rank": 3,
+  "design_style": "Monolithic Swiss Typography / Multi-Decade Archive",
+  "ui_highlights": "World-class typographic authority; pure black-and-white grid; massive multi-decade design archive.",
+  "patterns_to_imitate": "Strict typographic baseline grid; multi-tag portfolio filter drawer; responsive case study layout.",
+  "key_components": [
+    "Typographic Baseline Grid",
+    "Archive Filter Drawer",
+    "Case Study Reader"
+  ],
+  "recommended_stack": [
+    "React",
+    "Next.js",
+    "Sanity CMS"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "-apple-system",
+      "Apple Color Emoji",
+      "Arial",
+      "BlinkMacSystemFont",
+      "Consolas",
+      "Courier New",
+      "Helvetica",
+      "Helvetica Neue",
+      "Liberation Mono",
+      "Menlo",
+      "Monaco",
+      "NeueHaas",
+      "Noto Color Emoji",
+      "Noto Sans",
+      "Plain"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

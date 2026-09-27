@@ -1,0 +1,33 @@
+{
+  "slug": "resn",
+  "name": "Resn",
+  "url": "https://resn.co.nz",
+  "category": "Creative Studios & Interactive Experiences",
+  "rank": 7,
+  "design_style": "Psychedelic 3D Art / Gamified Non-Standard Nav",
+  "ui_highlights": "Legendary interactive design agency; gamified 3D navigation; interactive easter eggs; surreal soundscapes.",
+  "patterns_to_imitate": "Gamified 3D navigation globe; mouse gesture manipulation of 3D objects; bespoke interactive easter eggs.",
+  "key_components": [
+    "3D Interactive Globe",
+    "Easter Egg Trigger",
+    "Spatial Audio Engine"
+  ],
+  "recommended_stack": [
+    "Three.js",
+    "WebGL",
+    "Web Audio API"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

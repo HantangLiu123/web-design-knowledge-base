@@ -1,0 +1,47 @@
+{
+  "slug": "krea-ai",
+  "name": "Krea AI",
+  "url": "https://www.krea.ai",
+  "category": "AI-Native Applications",
+  "rank": 9,
+  "design_style": "Real-Time 60fps Generative Canvas / Tactile Tools",
+  "ui_highlights": "Pioneered instant real-time AI canvas; draw on left, photoreal rendering on right at 60fps.",
+  "patterns_to_imitate": "Real-time split-screen canvas; floating tactile tool palette; dynamic AI weight slider; quick prompt booster.",
+  "key_components": [
+    "Split Canvas Renderer",
+    "Tactile Tool Palette",
+    "AI Strength Slider"
+  ],
+  "recommended_stack": [
+    "React",
+    "WebGL",
+    "Canvas API",
+    "WebSockets"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "-apple-system",
+      "Apple Color Emoji",
+      "Arial",
+      "BlinkMacSystemFont",
+      "Consolas",
+      "Courier New",
+      "Helvetica Neue",
+      "Liberation Mono",
+      "Menlo",
+      "Monaco",
+      "Noto Color Emoji",
+      "Noto Color Emoji\")",
+      "Noto Sans",
+      "Roboto",
+      "SFMono-Regular"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

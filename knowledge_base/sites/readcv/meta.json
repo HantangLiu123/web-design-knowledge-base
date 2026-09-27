@@ -1,0 +1,34 @@
+{
+  "slug": "readcv",
+  "name": "Readcv",
+  "url": "https://read.cv",
+  "category": "Community, Educational & Lifestyle",
+  "rank": 3,
+  "design_style": "Anti-LinkedIn Creative Portfolio / Clean Timeline",
+  "ui_highlights": "Distraction-free personal profile; project attachment previews; clean career timeline; zero-spam aesthetic.",
+  "patterns_to_imitate": "Clean career timeline UI; expandable media attachments; minimalist profile header; clean skill tag pills.",
+  "key_components": [
+    "Career Timeline Card",
+    "Attachment Previewer",
+    "Profile Header",
+    "Tag Pill"
+  ],
+  "recommended_stack": [
+    "Next.js",
+    "Tailwind CSS",
+    "Framer Motion"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

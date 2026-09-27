@@ -1,0 +1,48 @@
+{
+  "slug": "craft-docs",
+  "name": "Craft Docs",
+  "url": "https://www.craft.do",
+  "category": "SaaS & Productivity",
+  "rank": 8,
+  "design_style": "Apple-Inspired Glassmorphic / Card Nesting",
+  "ui_highlights": "Blends native macOS/iOS elegance with web agility; deep visual document nesting; card styling.",
+  "patterns_to_imitate": "Card-based document nesting; cover image picker; floating inspector palettes; fluid drag-and-drop reorganization.",
+  "key_components": [
+    "Nested Document Cards",
+    "Floating Inspector",
+    "Cover Image Header"
+  ],
+  "recommended_stack": [
+    "Swift / Catalyst",
+    "WebKit",
+    "React"
+  ],
+  "detected_frameworks": [
+    "Radix UI"
+  ],
+  "typography": {
+    "font_families": [
+      "Apple Color Emoji",
+      "Consolas",
+      "Courier New",
+      "Inter",
+      "Inter Fallback",
+      "InterFont",
+      "InterFont Fallback",
+      "Liberation Mono",
+      "Menlo",
+      "Monaco",
+      "Noto Color Emoji\")",
+      "SFMono-Regular",
+      "Segoe UI Emoji",
+      "Segoe UI Symbol",
+      "Source Serif 4"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

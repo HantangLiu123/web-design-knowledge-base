@@ -1,0 +1,38 @@
+{
+  "slug": "arc-the-browser-company",
+  "name": "Arc (The Browser Company)",
+  "url": "https://arc.net",
+  "category": "SaaS & Productivity",
+  "rank": 6,
+  "design_style": "Expressive Pastel Gradients / Glassmorphic",
+  "ui_highlights": "Revolutionized browser UX with vertical workspace tabs, custom split views, and playful micro-animations.",
+  "patterns_to_imitate": "Vertical tab bar navigation; collapsible command launcher; space switcher pills; playful onboarding flow.",
+  "key_components": [
+    "Vertical Tab Strip",
+    "Space Switcher",
+    "Command Bar",
+    "Split Screen Layout"
+  ],
+  "recommended_stack": [
+    "Swift",
+    "Electron",
+    "Web Technologies"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "-apple-system",
+      "BlinkMacSystemFont",
+      "Marlin Soft SQ",
+      "sans-serif"
+    ],
+    "font_links": [
+      "https://fonts.googleapis.com"
+    ]
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

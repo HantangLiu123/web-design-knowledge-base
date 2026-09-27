@@ -1,0 +1,49 @@
+{
+  "slug": "clerk",
+  "name": "Clerk",
+  "url": "https://clerk.com",
+  "category": "Developer Tools & Infrastructure",
+  "rank": 4,
+  "design_style": "Polished Modal-First / Modern Auth Glow",
+  "ui_highlights": "Modern auth component showcase; interactive component customizer on the homepage; multi-tenant switcher.",
+  "patterns_to_imitate": "Interactive component previewer; embeddable auth cards; step-by-step onboarding wizard; organization switcher.",
+  "key_components": [
+    "Auth Card Modal",
+    "User Profile Button",
+    "Organization Switcher",
+    "Theme Picker"
+  ],
+  "recommended_stack": [
+    "Next.js",
+    "Tailwind CSS",
+    "Radix UI"
+  ],
+  "detected_frameworks": [
+    "Radix UI"
+  ],
+  "typography": {
+    "font_families": [
+      "Apple Color Emoji",
+      "Consolas",
+      "Courier New",
+      "Inter",
+      "Inter Fallback",
+      "Liberation Mono",
+      "Menlo",
+      "Monaco",
+      "Noto Color Emoji\")",
+      "SFMono-Regular",
+      "Segoe UI Emoji",
+      "Segoe UI Symbol",
+      "geistMono",
+      "geistNumbers",
+      "geistSans"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "pitchfork",
+  "name": "Pitchfork",
+  "url": "https://pitchfork.com",
+  "category": "Editorial, Media & Digital Storytelling",
+  "rank": 4,
+  "design_style": "Iconic Album Review Card / Score Badge Layout",
+  "ui_highlights": "The definitive music review format; decimal score badge; rich album artwork; tracklist breakdowns.",
+  "patterns_to_imitate": "Decimal rating badge widget (e.g. 8.4); album tracklist accordions; sticky article audio snippet player.",
+  "key_components": [
+    "Review Score Badge",
+    "Tracklist Accordion",
+    "Sticky Audio Player"
+  ],
+  "recommended_stack": [
+    "React",
+    "Next.js",
+    "GraphQL"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "FeatureFlatDisplay",
+      "FragmentMono",
+      "PTSerif",
+      "Walfork",
+      "monospace",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

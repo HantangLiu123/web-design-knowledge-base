@@ -1,0 +1,49 @@
+{
+  "slug": "wise",
+  "name": "Wise",
+  "url": "https://wise.com",
+  "category": "Modern Fintech & Banking",
+  "rank": 3,
+  "design_style": "High-Contrast Lime / Transparent Fee Calculator",
+  "ui_highlights": "Pioneer of radical fee transparency; famous live foreign exchange calculator with comparison against banks.",
+  "patterns_to_imitate": "Real-time currency exchange calculator with delivery time estimates; multi-currency balance cards.",
+  "key_components": [
+    "Live Currency Converter",
+    "Fee Transparency Breakdown",
+    "Currency Balance Card"
+  ],
+  "recommended_stack": [
+    "React",
+    "Next.js",
+    "Design System Neptune"
+  ],
+  "detected_frameworks": [
+    "Radix UI",
+    "Next.js"
+  ],
+  "typography": {
+    "font_families": [
+      "-apple-system",
+      "Apple Color Emoji",
+      "Arial",
+      "Averta",
+      "Cantarell",
+      "Consolas",
+      "Helvetica",
+      "Inter",
+      "Liberation Mono",
+      "Menlo",
+      "Noto Sans",
+      "Roboto",
+      "SFMono-Regular",
+      "Segoe UI",
+      "Segoe UI Emoji"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

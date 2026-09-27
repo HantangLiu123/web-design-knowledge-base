@@ -1,0 +1,48 @@
+{
+  "slug": "robinhood",
+  "name": "Robinhood",
+  "url": "https://robinhood.com",
+  "category": "Modern Fintech & Banking",
+  "rank": 6,
+  "design_style": "Zero-Friction Retail Investing / Market Color Shifter",
+  "ui_highlights": "Democratized retail trading; dynamic UI color shifting based on market status (green/red); simple order form.",
+  "patterns_to_imitate": "Portfolio green/red color mode shifting; simplified candlestick stock charts; instant order review slider.",
+  "key_components": [
+    "Dynamic Sentiment Theme",
+    "Candlestick Chart Scrubber",
+    "Quick Order Sheet"
+  ],
+  "recommended_stack": [
+    "React",
+    "D3.js",
+    "Emotion"
+  ],
+  "detected_frameworks": [
+    "Next.js"
+  ],
+  "typography": {
+    "font_families": [
+      "-apple-system",
+      "Arial",
+      "BlinkMacSystemFont",
+      "Capsule Sans Display",
+      "Capsule Sans Text",
+      "Capsule Sans Text Mono",
+      "Geist",
+      "Helvetica",
+      "ITC Garamond Std",
+      "Instrument Serif",
+      "Maison Neue Extended",
+      "Martina Plantijn",
+      "Nib Pro Display",
+      "Phonic",
+      "inherit"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

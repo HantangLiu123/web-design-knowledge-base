@@ -1,0 +1,50 @@
+{
+  "slug": "railway",
+  "name": "Railway",
+  "url": "https://railway.com",
+  "category": "Developer Tools & Infrastructure",
+  "rank": 7,
+  "design_style": "Node-Graph Canvas / Dark Terminal Aesthetic",
+  "ui_highlights": "Visual infrastructure canvas; servers and databases represented as connected interactive nodes.",
+  "patterns_to_imitate": "Node-based architecture canvas; animated connecting cables; live deployment logs terminal; template store cards.",
+  "key_components": [
+    "Canvas Node Graph",
+    "Streaming Log Terminal",
+    "Environment Variable Matrix"
+  ],
+  "recommended_stack": [
+    "Next.js",
+    "Canvas/SVG",
+    "Tailwind CSS"
+  ],
+  "detected_frameworks": [
+    "Radix UI"
+  ],
+  "typography": {
+    "font_families": [
+      "-apple-system",
+      "Apple Color Emoji",
+      "BlinkMacSystemFont",
+      "Cantarell",
+      "Consolas",
+      "Helvetica Neue",
+      "IBM Plex Serif",
+      "Inter",
+      "Inter Tight",
+      "JetBrains Mono",
+      "Liberation Mono",
+      "Menlo",
+      "Oxygen-Sans",
+      "Roboto",
+      "SF Mono"
+    ],
+    "font_links": [
+      "https://fonts.googleapis.com"
+    ]
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

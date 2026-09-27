@@ -1,0 +1,47 @@
+{
+  "slug": "figma",
+  "name": "Figma",
+  "url": "https://www.figma.com",
+  "category": "SaaS & Productivity",
+  "rank": 4,
+  "design_style": "High-Contrast Canvas / Multiplayer Workspace",
+  "ui_highlights": "Desktop-grade web application standard; seamless multiplayer cursor presence; modular floating tool panels.",
+  "patterns_to_imitate": "Floating canvas toolbar; collaborative cursor presence with name tags; layered side inspectors; zoom pan canvas.",
+  "key_components": [
+    "Floating Action Bar",
+    "Multiplayer Cursors",
+    "Layer Tree",
+    "Property Inspector"
+  ],
+  "recommended_stack": [
+    "WebAssembly",
+    "WebGL",
+    "React",
+    "C++"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "SF Mono",
+      "SF Pro Display",
+      "figmaMono",
+      "figmaMono Fallback",
+      "figmaSans",
+      "figmaSans Fallback",
+      "helvetica",
+      "inherit",
+      "menlo",
+      "monospace",
+      "monospace)",
+      "sans-serif",
+      "sans-serif)",
+      "system-ui"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

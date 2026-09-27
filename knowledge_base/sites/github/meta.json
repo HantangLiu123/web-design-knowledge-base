@@ -1,0 +1,34 @@
+{
+  "slug": "github",
+  "name": "GitHub",
+  "url": "https://github.com",
+  "category": "Developer Tools & Infrastructure",
+  "rank": 5,
+  "design_style": "Primer Design System / Dense Engineering Hub",
+  "ui_highlights": "The definitive repository hub; dense information architecture; clean split/unified code diffs; activity heatmaps.",
+  "patterns_to_imitate": "Side-by-side / unified code diffs; yearly activity commit heatmaps; multi-tab settings panes; markdown preview tabs.",
+  "key_components": [
+    "Code Diff Viewer",
+    "Contribution Heatmap",
+    "Repository File Tree",
+    "Markdown Tab"
+  ],
+  "recommended_stack": [
+    "Ruby on Rails",
+    "Primer Design System",
+    "React"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

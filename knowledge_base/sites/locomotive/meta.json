@@ -1,0 +1,47 @@
+{
+  "slug": "locomotive",
+  "name": "Locomotive",
+  "url": "https://locomotive.ca",
+  "category": "Creative Studios & Interactive Experiences",
+  "rank": 2,
+  "design_style": "Smooth Inertia Scroll / Kinetic Editorial Typography",
+  "ui_highlights": "Creators of Locomotive Scroll; unmatched scroll physics; text masking on scroll; horizontal transitions.",
+  "patterns_to_imitate": "Smooth inertia scrolling physics; scroll-triggered text reveals; image parallax scaling; horizontal galleries.",
+  "key_components": [
+    "Locomotive Scroll Container",
+    "Text Mask Reveal",
+    "Parallax Hero Image"
+  ],
+  "recommended_stack": [
+    "Locomotive Scroll",
+    "GSAP",
+    "WebGL",
+    "Barba.js"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "-apple-system",
+      "Apple Color Emoji",
+      "Arial",
+      "BlinkMacSystemFont",
+      "Cantarell",
+      "Helvetica",
+      "HelveticaNowDisplay",
+      "LocomotiveNew",
+      "Roboto",
+      "Segoe UI",
+      "Segoe UI Emoji",
+      "Segoe UI Symbol",
+      "Ubuntu",
+      "arial",
+      "avenir"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "height",
+  "name": "Height",
+  "url": "https://height.app",
+  "category": "SaaS & Productivity",
+  "rank": 10,
+  "design_style": "Spreadsheet-Meets-Kanban / Dense Collaboration",
+  "ui_highlights": "Spreadsheet flexibility combined with project tracking; inline cell editing; integrated task chat.",
+  "patterns_to_imitate": "Inline spreadsheet cell editor; real-time filter pills; contextual chat drawer; multi-attribute grouping.",
+  "key_components": [
+    "Spreadsheet Grid",
+    "Filter Pills",
+    "Context Chat Drawer",
+    "Attribute Tag Picker"
+  ],
+  "recommended_stack": [
+    "React",
+    "Tailwind CSS",
+    "WebSockets"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

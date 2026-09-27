@@ -1,0 +1,34 @@
+{
+  "slug": "aesop",
+  "name": "Aesop",
+  "url": "https://www.aesop.com",
+  "category": "E-Commerce & Direct-to-Consumer (D2C)",
+  "rank": 2,
+  "design_style": "Warm Earthy Tones / Brutalist Editorial Elegance",
+  "ui_highlights": "Poetic sensory commerce; delicate grid lines; generous whitespace; contextual ingredient accordions.",
+  "patterns_to_imitate": "Editorial product storytelling; slide-out cart drawer with free sample selector; aroma profile badges.",
+  "key_components": [
+    "Slide-Out Cart Drawer",
+    "Aroma Profile Badge",
+    "Accordion Breakdown",
+    "Store Locator"
+  ],
+  "recommended_stack": [
+    "React",
+    "Next.js",
+    "Tailored Design System"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

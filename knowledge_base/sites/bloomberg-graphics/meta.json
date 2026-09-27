@@ -1,0 +1,33 @@
+{
+  "slug": "bloomberg-graphics",
+  "name": "Bloomberg Graphics",
+  "url": "https://www.bloomberg.com/graphics",
+  "category": "Editorial, Media & Digital Storytelling",
+  "rank": 6,
+  "design_style": "High-Density Financial Telemetry / Scrollytelling",
+  "ui_highlights": "World-class economic data visualizations; interactive calculators; scrollytelling with locked axes.",
+  "patterns_to_imitate": "Interactive economic sliders; scrollytelling sticky chart viewport; financial data legend tooltips.",
+  "key_components": [
+    "Locked-Axis Chart",
+    "Scenario Slider",
+    "Interactive Data Legend"
+  ],
+  "recommended_stack": [
+    "D3.js",
+    "Svelte",
+    "Custom Bloomberg Charts"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "runway",
+  "name": "Runway",
+  "url": "https://runwayml.com",
+  "category": "AI-Native Applications",
+  "rank": 6,
+  "design_style": "Professional Generative Studio / Timeline Editor",
+  "ui_highlights": "Professional video generation studio; motion brush overlay; multi-track timeline layer controls.",
+  "patterns_to_imitate": "Motion brush canvas overlay; multi-asset media bin; video generation queue with progress indicators.",
+  "key_components": [
+    "Motion Brush Tool",
+    "Multi-track Timeline",
+    "Generation Progress Pill"
+  ],
+  "recommended_stack": [
+    "React",
+    "WebGL",
+    "Canvas API",
+    "Web Workers"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Consolas",
+      "Courier New",
+      "Liberation Mono",
+      "Menlo",
+      "Monaco",
+      "SFMono-Regular",
+      "abcNormal",
+      "abcNormal Fallback",
+      "inherit",
+      "monospace",
+      "timesNow",
+      "timesNow Fallback",
+      "ui-monospace"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "mintlify",
+  "name": "Mintlify",
+  "url": "https://mintlify.com",
+  "category": "Developer Tools & Infrastructure",
+  "rank": 9,
+  "design_style": "Modern 3-Column API Docs / Interactive Playground",
+  "ui_highlights": "Standard for modern documentation; lightning-fast navigation; built-in interactive OpenAPI request runner.",
+  "patterns_to_imitate": "Sticky 3-column layout (Nav - Guide - Interactive API Runner); response status code preview; instant copy snippets.",
+  "key_components": [
+    "Sticky 3-Column Layout",
+    "API Endpoint Runner",
+    "Code Parameter Table"
+  ],
+  "recommended_stack": [
+    "Next.js",
+    "Tailwind CSS",
+    "MDX"
+  ],
+  "detected_frameworks": [
+    "Radix UI"
+  ],
+  "typography": {
+    "font_families": [
+      "Apple Color Emoji",
+      "Arial",
+      "Consolas",
+      "Courier New",
+      "Geist Mono",
+      "Geist Mono Fallback",
+      "Helvetica",
+      "Liberation Mono",
+      "Menlo",
+      "Monaco",
+      "Noto Color Emoji\")",
+      "Roboto",
+      "SFMono-Regular",
+      "Segoe UI",
+      "Segoe UI Emoji"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

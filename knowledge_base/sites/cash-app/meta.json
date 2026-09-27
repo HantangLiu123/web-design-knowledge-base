@@ -1,0 +1,41 @@
+{
+  "slug": "cash-app",
+  "name": "Cash App",
+  "url": "https://cash.app",
+  "category": "Modern Fintech & Banking",
+  "rank": 4,
+  "design_style": "Cyber-Pop Neo-Brutalism / 3D Floating Assets",
+  "ui_highlights": "Breaks all traditional financial tropes; surreal 3D floating assets; mobile-first desktop interface.",
+  "patterns_to_imitate": "Surreal 3D interactive floating coins/cards; minimal single-input cashtag flow; oversized typography.",
+  "key_components": [
+    "Floating 3D Asset Canvas",
+    "Cashtag Search Input",
+    "Neon Action Button"
+  ],
+  "recommended_stack": [
+    "React",
+    "Three.js",
+    "GSAP"
+  ],
+  "detected_frameworks": [
+    "Next.js"
+  ],
+  "typography": {
+    "font_families": [
+      "Cash Sans",
+      "Cash Sans Mono",
+      "Cash Sans Wide",
+      "Helvetica Neue",
+      "helvetica",
+      "inherit",
+      "sans-serif",
+      "sans-serif)"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

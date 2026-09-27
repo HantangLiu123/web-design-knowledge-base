@@ -1,0 +1,41 @@
+{
+  "slug": "it-s-nice-that",
+  "name": "It's Nice That",
+  "url": "https://www.itsnicethat.com",
+  "category": "Editorial, Media & Digital Storytelling",
+  "rank": 7,
+  "design_style": "Playful Creative Culture / Dynamic Masonry Tags",
+  "ui_highlights": "Celebrates visual creativity; expansive, vibrant grid; color-coded tag pills; clean image framing.",
+  "patterns_to_imitate": "Dynamic color-coded category tags; masonry image layout; creative credit badges on artwork.",
+  "key_components": [
+    "Masonry Grid",
+    "Color-Coded Pill",
+    "Creative Credit Badge",
+    "Newsletter Drawer"
+  ],
+  "recommended_stack": [
+    "React",
+    "Next.js",
+    "Craft CMS"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Bradford",
+      "GT-Planar",
+      "Helvetica",
+      "Labil",
+      "LabilVariable",
+      "inherit",
+      "monospace",
+      "sans-serif",
+      "serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

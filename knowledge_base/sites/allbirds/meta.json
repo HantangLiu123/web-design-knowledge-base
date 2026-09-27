@@ -1,0 +1,46 @@
+{
+  "slug": "allbirds",
+  "name": "Allbirds",
+  "url": "https://www.allbirds.com",
+  "category": "E-Commerce & Direct-to-Consumer (D2C)",
+  "rank": 7,
+  "design_style": "Eco-Approachability / Transparent Sustainability Tags",
+  "ui_highlights": "Clean modern footwear commerce; carbon footprint badges; instant size and color stock availability indicators.",
+  "patterns_to_imitate": "Carbon footprint label on every product; instant color swatch toggle with stock preview; quick-add drawer.",
+  "key_components": [
+    "Carbon Footprint Badge",
+    "Color Swatch Matrix",
+    "Size Availability Grid"
+  ],
+  "recommended_stack": [
+    "Shopify Plus",
+    "React",
+    "Next.js"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Akkurat Mono",
+      "Apple Color Emoji",
+      "Consolas",
+      "Courier New",
+      "Geograph",
+      "Liberation Mono",
+      "Menlo",
+      "Monaco",
+      "Noto Color Emoji\")",
+      "SFMono-Regular",
+      "Segoe UI Emoji",
+      "Segoe UI Symbol",
+      "Self Modern",
+      "inherit",
+      "monospace)"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "perplexity-ai",
+  "name": "Perplexity AI",
+  "url": "https://www.perplexity.ai",
+  "category": "AI-Native Applications",
+  "rank": 1,
+  "design_style": "Minimalist Research Engine / Citation-Rich Cards",
+  "ui_highlights": "Pioneer of conversational search UX; real-time source citation pills; dynamic follow-up query suggestions.",
+  "patterns_to_imitate": "Inline numbered citation pills with instant source previews; answer streaming cards; related query suggestions.",
+  "key_components": [
+    "Citation Source Pill",
+    "Streaming Text Card",
+    "Related Query Pills",
+    "Library Drawer"
+  ],
+  "recommended_stack": [
+    "Next.js",
+    "Tailwind CSS",
+    "Radix UI"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

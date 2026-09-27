@@ -1,0 +1,6 @@
+/* Extracted CSS Variables for Active Theory (https://activetheory.net) */
+:root {
+  --safe-area-inset-bottom: env(safe-area-inset-bottom);
+  --safe-area-inset-right: env(safe-area-inset-right);
+  --safe-area-inset-top: env(safe-area-inset-top);
+}

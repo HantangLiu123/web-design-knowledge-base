@@ -1,0 +1,29 @@
+{
+  "slug": "duolingo",
+  "name": "Duolingo",
+  "url": "https://www.duolingo.com",
+  "category": "Community, Educational & Lifestyle",
+  "rank": 1,
+  "design_style": "Gamification Benchmark / 3D Isometric Learning Path",
+  "ui_highlights": "World-class gamification UI; 3D isometric path; streak counters; celebratory micro-animations.",
+  "patterns_to_imitate": "Learning journey path (nodes",
+  "key_components": [
+    "crowns"
+  ],
+  "recommended_stack": [
+    "chests); streak flame counter; celebratory quiz completion modals."
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

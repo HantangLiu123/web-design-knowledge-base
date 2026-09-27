@@ -1,0 +1,33 @@
+{
+  "slug": "mediamonks",
+  "name": "MediaMonks",
+  "url": "https://media.monks.com",
+  "category": "Creative Studios & Interactive Experiences",
+  "rank": 9,
+  "design_style": "Global Mega-Agency / Dynamic Case Study Drawers",
+  "ui_highlights": "Handles vast multi-disciplinary global work; dynamic case study preview drawers; interactive office map.",
+  "patterns_to_imitate": "Dynamic case study preview drawer; interactive global office map; adaptive filter pills across disciplines.",
+  "key_components": [
+    "Case Study Drawer",
+    "Interactive Map",
+    "Adaptive Tag Filter"
+  ],
+  "recommended_stack": [
+    "React",
+    "Next.js",
+    "Framer Motion"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

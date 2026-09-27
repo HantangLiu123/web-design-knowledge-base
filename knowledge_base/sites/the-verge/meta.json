@@ -1,0 +1,35 @@
+{
+  "slug": "the-verge",
+  "name": "The Verge",
+  "url": "https://www.theverge.com",
+  "category": "Editorial, Media & Digital Storytelling",
+  "rank": 3,
+  "design_style": "Retro-Cyberpunk Editorial / Storystream Live Feed",
+  "ui_highlights": "Neon duotones; Storystream format bringing real-time social micro-updates into editorial coverage.",
+  "patterns_to_imitate": "Storystream live-feed component; bold contrasting neon color blocks; article reading time and share docks.",
+  "key_components": [
+    "Storystream Feed",
+    "Sticky Sharing Dock",
+    "Duotone Hero Banner"
+  ],
+  "recommended_stack": [
+    "Next.js",
+    "Custom CMS",
+    "CSS Grid"
+  ],
+  "detected_frameworks": [
+    "Next.js"
+  ],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

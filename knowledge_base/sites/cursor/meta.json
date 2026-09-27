@@ -1,0 +1,46 @@
+{
+  "slug": "cursor",
+  "name": "Cursor",
+  "url": "https://www.cursor.com",
+  "category": "AI-Native Applications",
+  "rank": 4,
+  "design_style": "Developer-First Dark UI / Inline AI Diff Reviewer",
+  "ui_highlights": "Redefining software engineering; inline ghost text suggestions; multi-file agentic Composer modal.",
+  "patterns_to_imitate": "Inline code diff acceptance UI (accept/reject changes); floating prompt composer; file context tagger (@file).",
+  "key_components": [
+    "Inline Diff View",
+    "Composer Floating Modal",
+    "Symbol Mention Pill (@)"
+  ],
+  "recommended_stack": [
+    "Electron",
+    "VS Code Core",
+    "Custom AI Engine"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Apple Color Emoji",
+      "Consolas",
+      "Courier New",
+      "CursorGothic",
+      "CursorGothic Fallback",
+      "CursorIcons16",
+      "EB Garamond",
+      "KaTeX_AMS",
+      "KaTeX_Caligraphic",
+      "KaTeX_Fraktur",
+      "KaTeX_Main",
+      "KaTeX_Math",
+      "KaTeX_SansSerif",
+      "KaTeX_Script",
+      "KaTeX_Size1"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

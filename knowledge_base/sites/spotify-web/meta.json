@@ -1,0 +1,47 @@
+{
+  "slug": "spotify-web",
+  "name": "Spotify Web",
+  "url": "https://open.spotify.com",
+  "category": "Community, Educational & Lifestyle",
+  "rank": 8,
+  "design_style": "Persistent Playback Engine / Ambient Color Glow",
+  "ui_highlights": "Persistent audio player bar; ambient color extractor matching album art; collapsible queue/lyrics side panel.",
+  "patterns_to_imitate": "Sticky player bottom bar; album art ambient glow; collapsible right-side drawer (lyrics/queue/artist info).",
+  "key_components": [
+    "Sticky Player Bar",
+    "Album Glow Canvas",
+    "Collapsible Side Drawer",
+    "Playlist Grid"
+  ],
+  "recommended_stack": [
+    "React",
+    "Web Playback SDK",
+    "Custom CSS"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "CircularSp-Arab",
+      "CircularSp-Cyrl",
+      "CircularSp-Deva",
+      "CircularSp-Grek",
+      "CircularSp-Hebr",
+      "DevanagariFallback",
+      "SpotifyMixMono",
+      "SpotifyMixUI",
+      "SpotifyMixUI-Arab",
+      "SpotifyMixUI-Cyrl",
+      "SpotifyMixUI-Grek",
+      "SpotifyMixUI-Hebr",
+      "SpotifyMixUI-Thai",
+      "SpotifyMixUITitle",
+      "SpotifyMixUITitle-Arab"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

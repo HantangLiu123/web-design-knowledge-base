@@ -1,0 +1,41 @@
+{
+  "slug": "stripe",
+  "name": "Stripe",
+  "url": "https://stripe.com",
+  "category": "Modern Fintech & Banking",
+  "rank": 1,
+  "design_style": "Flowing Mesh Gradients / Precision Financial UI",
+  "ui_highlights": "The definitive benchmark for internet commerce; animated mesh gradients; live code payment demos.",
+  "patterns_to_imitate": "Interactive animated gradient canvas; payment method tabs (Cards",
+  "key_components": [
+    "Apple Pay"
+  ],
+  "recommended_stack": [
+    "Klarna); interactive pricing slider."
+  ],
+  "detected_frameworks": [
+    "Next.js"
+  ],
+  "typography": {
+    "font_families": [
+      "-apple-system",
+      "BlinkMacSystemFont",
+      "Helvetica Neue",
+      "Roboto",
+      "SF Pro Display",
+      "Segoe UI",
+      "SourceCodePro",
+      "Ubuntu",
+      "inherit",
+      "monospace",
+      "sans-serif",
+      "sohne-var"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

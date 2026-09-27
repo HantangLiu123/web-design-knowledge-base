@@ -1,0 +1,46 @@
+{
+  "slug": "raycast",
+  "name": "Raycast",
+  "url": "https://www.raycast.com",
+  "category": "SaaS & Productivity",
+  "rank": 2,
+  "design_style": "Dark Neumorphic / Developer Glow",
+  "ui_highlights": "Interactive homepage with live keyboard simulations; crisp custom icon system; spotlight search focus.",
+  "patterns_to_imitate": "Spotlight launcher UI; interactive manual simulation; extension store grid; hotkey visual badges.",
+  "key_components": [
+    "Interactive Search Modal",
+    "Key Cap Badges",
+    "Extension Cards"
+  ],
+  "recommended_stack": [
+    "Next.js",
+    "Tailwind CSS",
+    "Framer Motion"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Apple Color Emoji",
+      "Arial",
+      "Consolas",
+      "Geist Mono",
+      "GeistMono",
+      "Helvetica",
+      "IBM Plex Mono",
+      "Instrument Serif",
+      "Instrument Serif Fallback",
+      "Inter",
+      "Inter Fallback",
+      "JetBrains Mono",
+      "JetBrains Mono Fallback",
+      "Liberation Mono",
+      "Menlo"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

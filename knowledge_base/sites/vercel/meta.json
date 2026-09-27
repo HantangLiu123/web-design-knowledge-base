@@ -1,0 +1,47 @@
+{
+  "slug": "vercel",
+  "name": "Vercel",
+  "url": "https://vercel.com",
+  "category": "Developer Tools & Infrastructure",
+  "rank": 1,
+  "design_style": "Geist Design System / Monochrome Bento Grid",
+  "ui_highlights": "Sets the global standard for developer marketing and dashboards; razor-sharp Geist typography; terminal demos.",
+  "patterns_to_imitate": "Bento grid cards with hover glows; interactive CLI/deploy previews; tabbed dashboard metrics; subtle grid lines.",
+  "key_components": [
+    "Bento Grid",
+    "Terminal Preview",
+    "Deploy Preview Card",
+    "Metrics Sparkline"
+  ],
+  "recommended_stack": [
+    "Next.js",
+    "Geist UI/Font",
+    "Tailwind CSS"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Apple Color Emoji",
+      "Consolas",
+      "Courier New",
+      "DejaVu Sans Mono",
+      "Geist Mono",
+      "GeistSans",
+      "GeistSans Fallback",
+      "Georgia",
+      "Liberation Mono",
+      "Menlo",
+      "Monaco",
+      "Noto Color Emoji\")",
+      "SFMono-Regular",
+      "Segoe UI Emoji",
+      "Segoe UI Symbol"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

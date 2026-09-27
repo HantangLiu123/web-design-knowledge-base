@@ -1,0 +1,46 @@
+{
+  "slug": "suno",
+  "name": "Suno",
+  "url": "https://suno.com",
+  "category": "AI-Native Applications",
+  "rank": 10,
+  "design_style": "Musical Social Feed / Synced Karaoke Lyrics",
+  "ui_highlights": "Generative music platform; persistent audio player bar; real-time synced lyrics; track remix tree.",
+  "patterns_to_imitate": "Persistent audio player footer bar; synced karaoke-style lyrics scroller; track variation and remix tree.",
+  "key_components": [
+    "Sticky Audio Player",
+    "Synced Lyric Scroller",
+    "Track Variation Tree"
+  ],
+  "recommended_stack": [
+    "Next.js",
+    "Tailwind CSS",
+    "Web Audio API"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "-apple-system",
+      "Apple Color Emoji",
+      "Arial",
+      "BlinkMacSystemFont",
+      "Consolas",
+      "Courier New",
+      "Editorial New",
+      "Helvetica",
+      "Input Sans",
+      "Liberation Mono",
+      "Menlo",
+      "Monaco",
+      "Neue Montreal",
+      "Neue Montreal Book",
+      "Noto Color Emoji\")"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

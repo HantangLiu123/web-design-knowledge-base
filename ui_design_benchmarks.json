@@ -1,0 +1,868 @@
+{
+  "metadata": {
+    "title": "Top Website UI Designs Worth Learning and Imitating",
+    "description": "Benchmark directory of 80 top-tier website UI designs across 8 categories with design styles, highlights, UI patterns, key components, and recommended tech stacks.",
+    "version": "1.0.0",
+    "total_categories": 8,
+    "total_websites": 80,
+    "last_updated": "2026-09-26"
+  },
+  "categories": [
+    {
+      "id": "saas-productivity",
+      "name": "SaaS & Productivity",
+      "description": "Tools that excel at dense information design, keyboard-first navigation, fluid state transitions, and distraction-free workflows.",
+      "websites": [
+        {
+          "rank": 1,
+          "name": "Linear",
+          "url": "https://linear.app",
+          "design_style": "Cyber-Minimalist / Precision Dark Mode",
+          "highlights": "Defined the modern tech aesthetic; instant keyboard-first workflows; subtle border gradients; ultra-fluid transitions.",
+          "patterns_to_imitate": "Command palette (Cmd+K); subtle border glowing; high-density issue lists; instant optimistic UI updates.",
+          "key_components": ["Command Menu", "Issue Board", "Shortcut Tooltips", "Toast Notifications"],
+          "recommended_stack": "Next.js, Tailwind CSS, Radix UI, Framer Motion"
+        },
+        {
+          "rank": 2,
+          "name": "Raycast",
+          "url": "https://www.raycast.com",
+          "design_style": "Dark Neumorphic / Developer Glow",
+          "highlights": "Interactive homepage with live keyboard simulations; crisp custom icon system; spotlight search focus.",
+          "patterns_to_imitate": "Spotlight launcher UI; interactive manual simulation; extension store grid; hotkey visual badges.",
+          "key_components": ["Interactive Search Modal", "Key Cap Badges", "Extension Cards"],
+          "recommended_stack": "Next.js, Tailwind CSS, Framer Motion"
+        },
+        {
+          "rank": 3,
+          "name": "Notion",
+          "url": "https://www.notion.so",
+          "design_style": "Clean Monochromatic / Hand-drawn Accents",
+          "highlights": "Pioneer of modular block-based document editing; calm whitespace; collapsible sidebars; playful illustrations.",
+          "patterns_to_imitate": "Slash command (/) inline menus; drag-and-drop block handles; nested page hierarchy; clean sidebar nav.",
+          "key_components": ["Slash Menu", "Block Drag Handle", "Multi-column Layout", "Breadcrumbs"],
+          "recommended_stack": "React, Custom Canvas/DOM Editor, CSS Modules"
+        },
+        {
+          "rank": 4,
+          "name": "Figma",
+          "url": "https://www.figma.com",
+          "design_style": "High-Contrast Canvas / Multiplayer Workspace",
+          "highlights": "Desktop-grade web application standard; seamless multiplayer cursor presence; modular floating tool panels.",
+          "patterns_to_imitate": "Floating canvas toolbar; collaborative cursor presence with name tags; layered side inspectors; zoom pan canvas.",
+          "key_components": ["Floating Action Bar", "Multiplayer Cursors", "Layer Tree", "Property Inspector"],
+          "recommended_stack": "WebAssembly, WebGL, React, C++"
+        },
+        {
+          "rank": 5,
+          "name": "Cron (Notion Calendar)",
+          "url": "https://www.notion.so/product/calendar",
+          "design_style": "Ultra-Clean Time-Blocking / Minimalist Grid",
+          "highlights": "Redefined digital calendar UX with keyboard shortcuts, time-zone scrubbing, and distraction-free scheduling.",
+          "patterns_to_imitate": "Time grid drag-to-create; time-zone scrub overlay; quick meeting link generation; seamless theme switching.",
+          "key_components": ["Time-Grid Calendar", "Timezone Scrubber", "Event Popover", "Quick Booker"],
+          "recommended_stack": "Next.js, React, Tailwind CSS"
+        },
+        {
+          "rank": 6,
+          "name": "Arc (The Browser Company)",
+          "url": "https://arc.net",
+          "design_style": "Expressive Pastel Gradients / Glassmorphic",
+          "highlights": "Revolutionized browser UX with vertical workspace tabs, custom split views, and playful micro-animations.",
+          "patterns_to_imitate": "Vertical tab bar navigation; collapsible command launcher; space switcher pills; playful onboarding flow.",
+          "key_components": ["Vertical Tab Strip", "Space Switcher", "Command Bar", "Split Screen Layout"],
+          "recommended_stack": "Swift, Electron, Web Technologies"
+        },
+        {
+          "rank": 7,
+          "name": "Loom",
+          "url": "https://www.loom.com",
+          "design_style": "Vibrant SaaS / Video-First Productivity",
+          "highlights": "Interactive video player controls, instant AI-generated video summaries, and emoji timeline reactions.",
+          "patterns_to_imitate": "Interactive video playback timeline; floating webcam bubble; inline video transcription scrub; quick sharing drawer.",
+          "key_components": ["Video Scrubber", "Floating Bubble", "Reaction Emojis", "Transcript Viewer"],
+          "recommended_stack": "React, WebRTC, Tailwind CSS"
+        },
+        {
+          "rank": 8,
+          "name": "Craft Docs",
+          "url": "https://www.craft.do",
+          "design_style": "Apple-Inspired Glassmorphic / Card Nesting",
+          "highlights": "Blends native macOS/iOS elegance with web agility; deep visual document nesting; card styling.",
+          "patterns_to_imitate": "Card-based document nesting; cover image picker; floating inspector palettes; fluid drag-and-drop reorganization.",
+          "key_components": ["Nested Document Cards", "Floating Inspector", "Cover Image Header"],
+          "recommended_stack": "Swift / Catalyst, WebKit, React"
+        },
+        {
+          "rank": 9,
+          "name": "Superhuman",
+          "url": "https://superhuman.com",
+          "design_style": "High-Speed Monochromatic / Hotkey-First",
+          "highlights": "Zero-inbox philosophy; lightning-fast execution (<100ms response); distraction-free typography.",
+          "patterns_to_imitate": "Keyboard-first navigation (no mouse required); split-inbox tabs; hotkey cheat sheets; minimal email reading pane.",
+          "key_components": ["Split Inbox Tabs", "Hotkey Helper Modal", "Quick Action Bar", "Snippet Injector"],
+          "recommended_stack": "React, Custom Keyboard Engine"
+        },
+        {
+          "rank": 10,
+          "name": "Height",
+          "url": "https://height.app",
+          "design_style": "Spreadsheet-Meets-Kanban / Dense Collaboration",
+          "highlights": "Spreadsheet flexibility combined with project tracking; inline cell editing; integrated task chat.",
+          "patterns_to_imitate": "Inline spreadsheet cell editor; real-time filter pills; contextual chat drawer; multi-attribute grouping.",
+          "key_components": ["Spreadsheet Grid", "Filter Pills", "Context Chat Drawer", "Attribute Tag Picker"],
+          "recommended_stack": "React, Tailwind CSS, WebSockets"
+        }
+      ]
+    },
+    {
+      "id": "developer-tools",
+      "name": "Developer Tools & Infrastructure",
+      "description": "Platforms focused on developer ergonomics, terminal aesthetics, code playgrounds, bento grids, and technical documentation.",
+      "websites": [
+        {
+          "rank": 1,
+          "name": "Vercel",
+          "url": "https://vercel.com",
+          "design_style": "Geist Design System / Monochrome Bento Grid",
+          "highlights": "Sets the global standard for developer marketing and dashboards; razor-sharp Geist typography; terminal demos.",
+          "patterns_to_imitate": "Bento grid cards with hover glows; interactive CLI/deploy previews; tabbed dashboard metrics; subtle grid lines.",
+          "key_components": ["Bento Grid", "Terminal Preview", "Deploy Preview Card", "Metrics Sparkline"],
+          "recommended_stack": "Next.js, Geist UI/Font, Tailwind CSS"
+        },
+        {
+          "rank": 2,
+          "name": "Supabase",
+          "url": "https://supabase.com",
+          "design_style": "Obsidian Emerald / Retro-Futuristic Tech",
+          "highlights": "Emerald neon accents on deep dark backgrounds; interactive multi-language code switchers; SQL console.",
+          "patterns_to_imitate": "Multi-language code tabs (JS, Python, Dart, SQL); database table explorer; animated architecture flow diagrams.",
+          "key_components": ["Code Switcher Tabs", "SQL Studio Grid", "Status Pills", "Architecture Diagram"],
+          "recommended_stack": "Next.js, Tailwind CSS, Radix UI"
+        },
+        {
+          "rank": 3,
+          "name": "Resend",
+          "url": "https://resend.com",
+          "design_style": "Ultra-Minimalist Black & White / Code-First",
+          "highlights": "Distraction-free email API platform; live React email preview pane; instant API key copy; clean analytics.",
+          "patterns_to_imitate": "Split code editor + live email preview; frictionless API key generation; clean quota usage progress bars.",
+          "key_components": ["Live Template Preview", "API Key Revealer", "Quota Bar", "Event Stream Log"],
+          "recommended_stack": "Next.js, Tailwind CSS, Framer Motion"
+        },
+        {
+          "rank": 4,
+          "name": "Clerk",
+          "url": "https://clerk.com",
+          "design_style": "Polished Modal-First / Modern Auth Glow",
+          "highlights": "Modern auth component showcase; interactive component customizer on the homepage; multi-tenant switcher.",
+          "patterns_to_imitate": "Interactive component previewer; embeddable auth cards; step-by-step onboarding wizard; organization switcher.",
+          "key_components": ["Auth Card Modal", "User Profile Button", "Organization Switcher", "Theme Picker"],
+          "recommended_stack": "Next.js, Tailwind CSS, Radix UI"
+        },
+        {
+          "rank": 5,
+          "name": "GitHub",
+          "url": "https://github.com",
+          "design_style": "Primer Design System / Dense Engineering Hub",
+          "highlights": "The definitive repository hub; dense information architecture; clean split/unified code diffs; activity heatmaps.",
+          "patterns_to_imitate": "Side-by-side / unified code diffs; yearly activity commit heatmaps; multi-tab settings panes; markdown preview tabs.",
+          "key_components": ["Code Diff Viewer", "Contribution Heatmap", "Repository File Tree", "Markdown Tab"],
+          "recommended_stack": "Ruby on Rails, Primer Design System, React"
+        },
+        {
+          "rank": 6,
+          "name": "Tailwind CSS",
+          "url": "https://tailwindcss.com",
+          "design_style": "Clean Utility Documentation / Side-by-Side Sandbox",
+          "highlights": "The benchmark for developer documentation; live side-by-side utility code and component preview; quick search.",
+          "patterns_to_imitate": "Instant modal search (Cmd+K); side-by-side code/preview toggle; responsive viewport simulator; copy snippet badges.",
+          "key_components": ["Doc Search Modal", "Code Playground Sandbox", "Viewport Resizer", "API Pill Tags"],
+          "recommended_stack": "Next.js, Tailwind CSS, Headless UI"
+        },
+        {
+          "rank": 7,
+          "name": "Railway",
+          "url": "https://railway.com",
+          "design_style": "Node-Graph Canvas / Dark Terminal Aesthetic",
+          "highlights": "Visual infrastructure canvas; servers and databases represented as connected interactive nodes.",
+          "patterns_to_imitate": "Node-based architecture canvas; animated connecting cables; live deployment logs terminal; template store cards.",
+          "key_components": ["Canvas Node Graph", "Streaming Log Terminal", "Environment Variable Matrix"],
+          "recommended_stack": "Next.js, Canvas/SVG, Tailwind CSS"
+        },
+        {
+          "rank": 8,
+          "name": "PlanetScale",
+          "url": "https://planetscale.com",
+          "design_style": "Geometric Technical Drawings / High-Contrast Scheme",
+          "highlights": "Brings Git concepts to relational databases; visual schema branching; deep query telemetry charts.",
+          "patterns_to_imitate": "Visual database branch graph; schema diff review modal; interactive query performance charts; deploy request pills.",
+          "key_components": ["Branch Graph Tree", "Schema Diff Viewer", "Query Telemetry Graph"],
+          "recommended_stack": "Next.js, Tailwind CSS, D3.js"
+        },
+        {
+          "rank": 9,
+          "name": "Mintlify",
+          "url": "https://mintlify.com",
+          "design_style": "Modern 3-Column API Docs / Interactive Playground",
+          "highlights": "Standard for modern documentation; lightning-fast navigation; built-in interactive OpenAPI request runner.",
+          "patterns_to_imitate": "Sticky 3-column layout (Nav - Guide - Interactive API Runner); response status code preview; instant copy snippets.",
+          "key_components": ["Sticky 3-Column Layout", "API Endpoint Runner", "Code Parameter Table"],
+          "recommended_stack": "Next.js, Tailwind CSS, MDX"
+        },
+        {
+          "rank": 10,
+          "name": "Postman",
+          "url": "https://www.postman.com",
+          "design_style": "Heavy Multi-Tab Workspace / JSON Inspector",
+          "highlights": "Complex desktop-grade API client on the web; multi-tab request builder; collapsible JSON response viewer.",
+          "patterns_to_imitate": "Tabbed request workspace; collapsible JSON tree inspector; environment variable dropdowns; mock server builder.",
+          "key_components": ["Tabbed Request Bar", "JSON Syntax Fold Viewer", "Environment Dropdown"],
+          "recommended_stack": "React, Redux, Custom Webpack/DOM Components"
+        }
+      ]
+    },
+    {
+      "id": "e-commerce-d2c",
+      "name": "E-Commerce & Direct-to-Consumer (D2C)",
+      "description": "High-conversion, sensory digital retail experiences with interactive customizers, 3D showcases, and refined product storytelling.",
+      "websites": [
+        {
+          "rank": 1,
+          "name": "Apple Store",
+          "url": "https://www.apple.com/shop",
+          "design_style": "High-Touch Product Configurator / Clean Swiss Luxe",
+          "highlights": "The gold standard of digital retail; seamless hardware customizer; modular feature carousels; sticky checkout.",
+          "patterns_to_imitate": "Interactive device spec customizer (finish, capacity, trade-in); sticky purchase drawer; high-res pinch zoom.",
+          "key_components": ["Hardware Configurator", "Sticky Purchase Summary", "Carousel Slider", "Feature Matrix"],
+          "recommended_stack": "Custom Apple Web Engine, Vanilla JS/Modern DOM"
+        },
+        {
+          "rank": 2,
+          "name": "Aesop",
+          "url": "https://www.aesop.com",
+          "design_style": "Warm Earthy Tones / Brutalist Editorial Elegance",
+          "highlights": "Poetic sensory commerce; delicate grid lines; generous whitespace; contextual ingredient accordions.",
+          "patterns_to_imitate": "Editorial product storytelling; slide-out cart drawer with free sample selector; aroma profile badges.",
+          "key_components": ["Slide-Out Cart Drawer", "Aroma Profile Badge", "Accordion Breakdown", "Store Locator"],
+          "recommended_stack": "React, Next.js, Tailored Design System"
+        },
+        {
+          "rank": 3,
+          "name": "Bang & Olufsen",
+          "url": "https://www.bang-olufsen.com",
+          "design_style": "Scandinavian Minimalism / 360 Material Showcase",
+          "highlights": "High-fidelity luxury audio showcase; acoustic visualization; interactive 3D material and finish selector.",
+          "patterns_to_imitate": "Material & colorway switcher; full-bleed immersive hero video sliders; acoustic feature breakdown modules.",
+          "key_components": ["3D Material Switcher", "Full-Bleed Video Slider", "Acoustic Feature Cards"],
+          "recommended_stack": "React, Three.js, Commercetools"
+        },
+        {
+          "rank": 4,
+          "name": "Teenage Engineering",
+          "url": "https://teenage.engineering",
+          "design_style": "Industrial Design Blueprint / Retro-Tactile Minimalism",
+          "highlights": "Dieter Rams-inspired industrial aesthetics; blueprint schematics; interactive browser-playable synths.",
+          "patterns_to_imitate": "Schematic line-art product displays; interactive digital knobs/keys; raw monospace spec tables; minimal grid.",
+          "key_components": ["Interactive Synth Knobs", "Schematic Wireframe Card", "Specs Table"],
+          "recommended_stack": "Vue.js / Nuxt, Web Audio API, Canvas"
+        },
+        {
+          "rank": 5,
+          "name": "Rimowa",
+          "url": "https://www.rimowa.com",
+          "design_style": "Luxury Tactile Showcase / Custom Personalization",
+          "highlights": "High-end luggage experience; interactive monogramming customizer; wheel and handle color customizer.",
+          "patterns_to_imitate": "Monogram customizer with real-time embossed initials; smooth filter drawer; wheel & handle color preview.",
+          "key_components": ["Monogramming Tool", "Slide Filter Drawer", "360 Spin Viewer", "Warranty Register"],
+          "recommended_stack": "Vue.js, Nuxt, Salesforce Commerce Cloud"
+        },
+        {
+          "rank": 6,
+          "name": "Bellroy",
+          "url": "https://bellroy.com",
+          "design_style": "Functional Lifestyle D2C / Problem-Solution Sliders",
+          "highlights": "Famous 'Slim Your Wallet' interactive slider comparing bulky vs Bellroy wallets with card count controls.",
+          "patterns_to_imitate": "Interactive thickness comparison slider; pocket-fit visualization; feature hotspot popovers on product images.",
+          "key_components": ["Comparison Thickness Slider", "Image Hotspot Popover", "Card Count Counter"],
+          "recommended_stack": "Shopify Plus, Vue.js, Tailwind CSS"
+        },
+        {
+          "rank": 7,
+          "name": "Allbirds",
+          "url": "https://www.allbirds.com",
+          "design_style": "Eco-Approachability / Transparent Sustainability Tags",
+          "highlights": "Clean modern footwear commerce; carbon footprint badges; instant size and color stock availability indicators.",
+          "patterns_to_imitate": "Carbon footprint label on every product; instant color swatch toggle with stock preview; quick-add drawer.",
+          "key_components": ["Carbon Footprint Badge", "Color Swatch Matrix", "Size Availability Grid"],
+          "recommended_stack": "Shopify Plus, React, Next.js"
+        },
+        {
+          "rank": 8,
+          "name": "Glossier",
+          "url": "https://www.glossier.com",
+          "design_style": "Millennial Playful Beauty / Shade Matcher",
+          "highlights": "Accessible beauty commerce; interactive foundation shade finder; customer lookbook integrated with product.",
+          "patterns_to_imitate": "Shade finder tool with diverse model photography; sticky Add to Bag bar; customer review photo gallery filter.",
+          "key_components": ["Shade Finder Tool", "Review Photo Filter", "Sticky Mobile Add-to-Cart"],
+          "recommended_stack": "Shopify Plus, React, GraphQL"
+        },
+        {
+          "rank": 9,
+          "name": "hardgraft",
+          "url": "https://www.hardgraft.com",
+          "design_style": "Raw Artisanal Luxury / High-Resolution Masonry Grid",
+          "highlights": "Distraction-free artisanal leather goods; full-bleed masonry image grid; subtle price reveal on hover.",
+          "patterns_to_imitate": "Image-dominant masonry catalog; minimal hover price and title reveal; distraction-free product detail page.",
+          "key_components": ["Full-Bleed Masonry Grid", "Subtle Hover Overlay", "Minimal Checkout Accordion"],
+          "recommended_stack": "Shopify Plus, Custom Liquid/JS"
+        },
+        {
+          "rank": 10,
+          "name": "Nike",
+          "url": "https://www.nike.com",
+          "design_style": "High-Energy Athletic / Nike By You 3D Customizer",
+          "highlights": "Bold athletic typography; multi-attribute faceted filtering; interactive 3D shoe customization engine.",
+          "patterns_to_imitate": "Nike By You 3D sneaker colorway customizer; multi-tiered sticky filter drawer; endless scroll grid.",
+          "key_components": ["3D Shoe Customizer", "Faceted Filter Drawer", "Wishlist Heart Toggle", "Size Picker"],
+          "recommended_stack": "React, WebGL, Node.js Microservices"
+        }
+      ]
+    },
+    {
+      "id": "modern-fintech",
+      "name": "Modern Fintech & Banking",
+      "description": "Financial platforms that turn complex numbers, transactions, and compliance into trustworthy, friction-free interfaces.",
+      "websites": [
+        {
+          "rank": 1,
+          "name": "Stripe",
+          "url": "https://stripe.com",
+          "design_style": "Flowing Mesh Gradients / Precision Financial UI",
+          "highlights": "The definitive benchmark for internet commerce; animated mesh gradients; live code payment demos.",
+          "patterns_to_imitate": "Interactive animated gradient canvas; payment method tabs (Cards, Apple Pay, Klarna); interactive pricing slider.",
+          "key_components": ["Animated Gradient Hero", "Payment Method Switcher", "Interactive Pricing Calculator"],
+          "recommended_stack": "React, WebGL, Custom CSS Gradients"
+        },
+        {
+          "rank": 2,
+          "name": "Mercury",
+          "url": "https://mercury.com",
+          "design_style": "Deep Jewel Tones / Modern Corporate Banking",
+          "highlights": "Calm banking UX for startups; multi-entity account switchers; clean wire transfer modal wizard.",
+          "patterns_to_imitate": "Financial telemetry sparklines; multi-company switcher; one-click card freeze toggle; wire transfer step wizard.",
+          "key_components": ["Account Balance Sparkline", "Card Freeze Toggle", "Multi-Company Dropdown", "Transfer Wizard"],
+          "recommended_stack": "React, Next.js, Styled Components"
+        },
+        {
+          "rank": 3,
+          "name": "Wise",
+          "url": "https://wise.com",
+          "design_style": "High-Contrast Lime / Transparent Fee Calculator",
+          "highlights": "Pioneer of radical fee transparency; famous live foreign exchange calculator with comparison against banks.",
+          "patterns_to_imitate": "Real-time currency exchange calculator with delivery time estimates; multi-currency balance cards.",
+          "key_components": ["Live Currency Converter", "Fee Transparency Breakdown", "Currency Balance Card"],
+          "recommended_stack": "React, Next.js, Design System Neptune"
+        },
+        {
+          "rank": 4,
+          "name": "Cash App",
+          "url": "https://cash.app",
+          "design_style": "Cyber-Pop Neo-Brutalism / 3D Floating Assets",
+          "highlights": "Breaks all traditional financial tropes; surreal 3D floating assets; mobile-first desktop interface.",
+          "patterns_to_imitate": "Surreal 3D interactive floating coins/cards; minimal single-input cashtag flow; oversized typography.",
+          "key_components": ["Floating 3D Asset Canvas", "Cashtag Search Input", "Neon Action Button"],
+          "recommended_stack": "React, Three.js, GSAP"
+        },
+        {
+          "rank": 5,
+          "name": "Revolut",
+          "url": "https://www.revolut.com",
+          "design_style": "Dark Sleek Fintech / Glowing Neon Multi-Currency",
+          "highlights": "Multi-feature financial super-app; dynamic debit card visualizer; lifestyle perks mega-menu.",
+          "patterns_to_imitate": "Custom debit card 3D visualizer; mega-menu feature directory; stock/crypto trading preview cards.",
+          "key_components": ["Card 3D Visualizer", "Mega-Menu Directory", "Investment Ticker Preview"],
+          "recommended_stack": "React, Next.js, Framer Motion"
+        },
+        {
+          "rank": 6,
+          "name": "Robinhood",
+          "url": "https://robinhood.com",
+          "design_style": "Zero-Friction Retail Investing / Market Color Shifter",
+          "highlights": "Democratized retail trading; dynamic UI color shifting based on market status (green/red); simple order form.",
+          "patterns_to_imitate": "Portfolio green/red color mode shifting; simplified candlestick stock charts; instant order review slider.",
+          "key_components": ["Dynamic Sentiment Theme", "Candlestick Chart Scrubber", "Quick Order Sheet"],
+          "recommended_stack": "React, D3.js, Emotion"
+        },
+        {
+          "rank": 7,
+          "name": "Ramp",
+          "url": "https://ramp.com",
+          "design_style": "Enterprise Spend Velocity / Monospace Precision",
+          "highlights": "High-growth corporate spend platform; interactive ROI savings calculator; live card policy rules.",
+          "patterns_to_imitate": "Interactive savings calculator; automated expense approval hierarchy tree; live card spending limit sliders.",
+          "key_components": ["ROI Savings Calculator", "Approval Tree Visualizer", "Spending Limit Slider"],
+          "recommended_stack": "Next.js, Tailwind CSS, Framer Motion"
+        },
+        {
+          "rank": 8,
+          "name": "Brex",
+          "url": "https://www.brex.com",
+          "design_style": "High-Contrast Corporate / Global Expense Management",
+          "highlights": "Global enterprise card and travel platform; multi-currency spend dashboard; interactive budget manager.",
+          "patterns_to_imitate": "Budget allocation hierarchy tree; travel itinerary booking interface; automated receipt policy builder.",
+          "key_components": ["Budget Tree View", "Travel Itinerary Card", "Corporate Card Tile"],
+          "recommended_stack": "Next.js, Tailwind CSS, Radix UI"
+        },
+        {
+          "rank": 9,
+          "name": "Monzo",
+          "url": "https://monzo.com",
+          "design_style": "Friendly Hot-Coral / Conversational Banking",
+          "highlights": "Famous hot-coral branding; visual savings goals; collaborative bill splitting and instant notifications.",
+          "patterns_to_imitate": "Visual 'Savings Pots' with target progress rings; split-the-bill friend selector; instant spending breakdown pie.",
+          "key_components": ["Savings Pot Ring", "Bill Splitter Drawer", "Spending Category Breakdown"],
+          "recommended_stack": "React, Next.js, Custom Web Framework"
+        },
+        {
+          "rank": 10,
+          "name": "Klarna",
+          "url": "https://www.klarna.com",
+          "design_style": "Playful Pink / Installments Timeline UI",
+          "highlights": "Shopping-first fintech; transparent 'Pay in 4' installment schedule visualizer; curated wishlist boards.",
+          "patterns_to_imitate": "Visual payment schedule timeline (Today, 2, 4, 6 weeks); price-drop alert notifications; wishlist collections.",
+          "key_components": ["Installment Schedule Timeline", "Price Drop Alert Badge", "Wishlist Board"],
+          "recommended_stack": "React, Next.js, Styled Components"
+        }
+      ]
+    },
+    {
+      "id": "creative-studios",
+      "name": "Creative Studios & Interactive Experiences",
+      "description": "Boundary-pushing agencies that showcase WebGL, physics-driven interactions, kinetic typography, and bespoke motion design.",
+      "websites": [
+        {
+          "rank": 1,
+          "name": "Active Theory",
+          "url": "https://activetheory.net",
+          "design_style": "Experimental WebGL / Console-Grade 3D Particles",
+          "highlights": "Pushes browser rendering limits; custom WebGL engine; interactive 3D particle systems; spatial audio.",
+          "patterns_to_imitate": "WebGL particle canvas backgrounds; custom cursor magnetic distortion; spatial audio toggles; 3D navigation.",
+          "key_components": ["WebGL Canvas Engine", "Sound FX Switcher", "Cursor Distortion", "Spatial Project Grid"],
+          "recommended_stack": "Custom WebGL (Hydra Engine), Three.js, Web Audio API"
+        },
+        {
+          "rank": 2,
+          "name": "Locomotive",
+          "url": "https://locomotive.ca",
+          "design_style": "Smooth Inertia Scroll / Kinetic Editorial Typography",
+          "highlights": "Creators of Locomotive Scroll; unmatched scroll physics; text masking on scroll; horizontal transitions.",
+          "patterns_to_imitate": "Smooth inertia scrolling physics; scroll-triggered text reveals; image parallax scaling; horizontal galleries.",
+          "key_components": ["Locomotive Scroll Container", "Text Mask Reveal", "Parallax Hero Image"],
+          "recommended_stack": "Locomotive Scroll, GSAP, WebGL, Barba.js"
+        },
+        {
+          "rank": 3,
+          "name": "Pentagram",
+          "url": "https://www.pentagram.com",
+          "design_style": "Monolithic Swiss Typography / Multi-Decade Archive",
+          "highlights": "World-class typographic authority; pure black-and-white grid; massive multi-decade design archive.",
+          "patterns_to_imitate": "Strict typographic baseline grid; multi-tag portfolio filter drawer; responsive case study layout.",
+          "key_components": ["Typographic Baseline Grid", "Archive Filter Drawer", "Case Study Reader"],
+          "recommended_stack": "React, Next.js, Sanity CMS"
+        },
+        {
+          "rank": 4,
+          "name": "Basement Studio",
+          "url": "https://basement.studio",
+          "design_style": "High-Octane Dark Mode / Lenis Smooth Scroll / Retro Glitch",
+          "highlights": "Creators of Lenis; retro-futuristic glitch micro-animations; spatial audio feedback; custom typography.",
+          "patterns_to_imitate": "Lenis smooth scroll physics; sound effect hover feedback; magnetic buttons; dynamic viewport scaling.",
+          "key_components": ["Lenis Scroll Provider", "Magnetic Button", "Glitch Shader Canvas", "Sound FX Toggle"],
+          "recommended_stack": "Next.js, Lenis, GSAP, Tailwind CSS"
+        },
+        {
+          "rank": 5,
+          "name": "BASIC/DEPT",
+          "url": "https://www.basicagency.com",
+          "design_style": "Bold Modern Agency / Full-Bleed Video Reels",
+          "highlights": "High-impact agency branding; seamless page routing without white flashes; interactive B-side archive.",
+          "patterns_to_imitate": "Shared element page transitions; full-bleed video heroes; sound-responsive cursor hover states.",
+          "key_components": ["Seamless Page Router", "Video Hero Reel", "Interactive Archive Table"],
+          "recommended_stack": "Next.js, GSAP, WebGL"
+        },
+        {
+          "rank": 6,
+          "name": "Cuberto",
+          "url": "https://cuberto.com",
+          "design_style": "Liquid Organic Motion / Gooey Morphing Cursor",
+          "highlights": "Pioneers of morphing cursor interactions; liquid SVG gooey filters; smooth mobile-like gestures.",
+          "patterns_to_imitate": "Custom cursor that morphs into play buttons/drag badges; elastic hover pull; liquid page transitions.",
+          "key_components": ["Morphing Cursor Pill", "Elastic Drag Button", "Contact Form Drawer"],
+          "recommended_stack": "GSAP, Canvas, Three.js, Swiper"
+        },
+        {
+          "rank": 7,
+          "name": "Resn",
+          "url": "https://resn.co.nz",
+          "design_style": "Psychedelic 3D Art / Gamified Non-Standard Nav",
+          "highlights": "Legendary interactive design agency; gamified 3D navigation; interactive easter eggs; surreal soundscapes.",
+          "patterns_to_imitate": "Gamified 3D navigation globe; mouse gesture manipulation of 3D objects; bespoke interactive easter eggs.",
+          "key_components": ["3D Interactive Globe", "Easter Egg Trigger", "Spatial Audio Engine"],
+          "recommended_stack": "Three.js, WebGL, Web Audio API"
+        },
+        {
+          "rank": 8,
+          "name": "ToyFight",
+          "url": "https://toyfight.co",
+          "design_style": "Playful 3D Figurines / Cheeky Neo-Brutalism",
+          "highlights": "Humorous 3D action figurines; physics-based collisions; bold two-tone color blocking.",
+          "patterns_to_imitate": "3D figurines that collide and tumble on scroll; humorous micro-copy; bold contrasting color split sections.",
+          "key_components": ["3D Physics Canvas", "Color Block Splitter", "Action Toy Card"],
+          "recommended_stack": "Three.js, Cannon.js physics, GSAP"
+        },
+        {
+          "rank": 9,
+          "name": "MediaMonks",
+          "url": "https://media.monks.com",
+          "design_style": "Global Mega-Agency / Dynamic Case Study Drawers",
+          "highlights": "Handles vast multi-disciplinary global work; dynamic case study preview drawers; interactive office map.",
+          "patterns_to_imitate": "Dynamic case study preview drawer; interactive global office map; adaptive filter pills across disciplines.",
+          "key_components": ["Case Study Drawer", "Interactive Map", "Adaptive Tag Filter"],
+          "recommended_stack": "React, Next.js, Framer Motion"
+        },
+        {
+          "rank": 10,
+          "name": "Fantasy (FI)",
+          "url": "https://fantasy.co",
+          "design_style": "Futuristic UI Concepts / Cinematic Case Studies",
+          "highlights": "Pioneering future operating systems, automotive dashboards, and AI agents with cinematic design walk-throughs.",
+          "patterns_to_imitate": "Video-rich UI concept walkthroughs; sticky feature breakdown sidebars; prototype interaction recordings.",
+          "key_components": ["Cinematic Video Banner", "Sticky Spec Sidebar", "Interactive Prototype Frame"],
+          "recommended_stack": "React, Next.js, Framer Motion"
+        }
+      ]
+    },
+    {
+      "id": "ai-native",
+      "name": "AI-Native Applications",
+      "description": "Frontiers of interaction design for AI, featuring streaming responses, dual-pane artifact views, generative canvases, and prompt affordances.",
+      "websites": [
+        {
+          "rank": 1,
+          "name": "Perplexity AI",
+          "url": "https://www.perplexity.ai",
+          "design_style": "Minimalist Research Engine / Citation-Rich Cards",
+          "highlights": "Pioneer of conversational search UX; real-time source citation pills; dynamic follow-up query suggestions.",
+          "patterns_to_imitate": "Inline numbered citation pills with instant source previews; answer streaming cards; related query suggestions.",
+          "key_components": ["Citation Source Pill", "Streaming Text Card", "Related Query Pills", "Library Drawer"],
+          "recommended_stack": "Next.js, Tailwind CSS, Radix UI"
+        },
+        {
+          "rank": 2,
+          "name": "Claude by Anthropic",
+          "url": "https://claude.ai",
+          "design_style": "Serene Editorial / Artifacts Dual-Pane Workspace",
+          "highlights": "Pioneered Artifacts UI; warm terracotta and ivory palette; side-by-side interactive code/UI sandbox.",
+          "patterns_to_imitate": "Dual-pane chat + artifact split screen; live interactive HTML/SVG sandbox; calm editorial typography.",
+          "key_components": ["Artifacts Split Pane", "Interactive Sandbox Runner", "Prompt Textarea"],
+          "recommended_stack": "Next.js, Tailwind CSS, Custom Markdown Parser"
+        },
+        {
+          "rank": 3,
+          "name": "v0 by Vercel",
+          "url": "https://v0.dev",
+          "design_style": "Generative Component Canvas / Dual Code-Preview",
+          "highlights": "AI generative UI platform; live React/Tailwind component rendering; version iteration branching.",
+          "patterns_to_imitate": "Component version branch selector; live code/preview toggle (desktop/mobile); inspect element to iterate.",
+          "key_components": ["Version Branch Selector", "Viewport Mode Toggle", "Code Inspector Panel"],
+          "recommended_stack": "Next.js, Monaco Editor, Tailwind CSS"
+        },
+        {
+          "rank": 4,
+          "name": "Cursor",
+          "url": "https://www.cursor.com",
+          "design_style": "Developer-First Dark UI / Inline AI Diff Reviewer",
+          "highlights": "Redefining software engineering; inline ghost text suggestions; multi-file agentic Composer modal.",
+          "patterns_to_imitate": "Inline code diff acceptance UI (accept/reject changes); floating prompt composer; file context tagger (@file).",
+          "key_components": ["Inline Diff View", "Composer Floating Modal", "Symbol Mention Pill (@)"],
+          "recommended_stack": "Electron, VS Code Core, Custom AI Engine"
+        },
+        {
+          "rank": 5,
+          "name": "Midjourney",
+          "url": "https://www.midjourney.com",
+          "design_style": "Infinite Canvas / High-Density Art Lightbox",
+          "highlights": "Infinite visual canvas for generated art; prompt parameter metadata cards; one-click remix/upscale tools.",
+          "patterns_to_imitate": "Infinite masonry image grid; prompt parameter tags inspector; instant lightbox with upscale/variation tools.",
+          "key_components": ["Masonry Canvas", "Prompt Inspector Lightbox", "Upscale Action Bar"],
+          "recommended_stack": "Svelte, Next.js, Tailwind CSS"
+        },
+        {
+          "rank": 6,
+          "name": "Runway",
+          "url": "https://runwayml.com",
+          "design_style": "Professional Generative Studio / Timeline Editor",
+          "highlights": "Professional video generation studio; motion brush overlay; multi-track timeline layer controls.",
+          "patterns_to_imitate": "Motion brush canvas overlay; multi-asset media bin; video generation queue with progress indicators.",
+          "key_components": ["Motion Brush Tool", "Multi-track Timeline", "Generation Progress Pill"],
+          "recommended_stack": "React, WebGL, Canvas API, Web Workers"
+        },
+        {
+          "rank": 7,
+          "name": "ElevenLabs",
+          "url": "https://elevenlabs.io",
+          "design_style": "Sound Wave Telemetry / Sleek Voice Library Cards",
+          "highlights": "Interactive voice synthesis playground; real-time waveform audio scrubbers; voice cloning recorder.",
+          "patterns_to_imitate": "Waveform audio scrubber; voice timbre/accent filter tags; live TTS slider controls (stability, clarity).",
+          "key_components": ["Waveform Audio Player", "Voice Filter Tags", "Stability Slider Control"],
+          "recommended_stack": "Next.js, Tailwind CSS, Web Audio API"
+        },
+        {
+          "rank": 8,
+          "name": "Granola",
+          "url": "https://www.granola.ai",
+          "design_style": "Serene AI Notepad / Split Human-AI Meeting Notes",
+          "highlights": "Blends human note-taking with AI enhancements; minimal distraction-free typography; ambient status.",
+          "patterns_to_imitate": "Split human-typed notes and AI-enhanced summaries; ambient audio recording status indicator; minimal toolbar.",
+          "key_components": ["Split Note Column", "Recording Status Pulse", "Clean Markdown Toolbar"],
+          "recommended_stack": "React, Electron, Tailwind CSS"
+        },
+        {
+          "rank": 9,
+          "name": "Krea AI",
+          "url": "https://www.krea.ai",
+          "design_style": "Real-Time 60fps Generative Canvas / Tactile Tools",
+          "highlights": "Pioneered instant real-time AI canvas; draw on left, photoreal rendering on right at 60fps.",
+          "patterns_to_imitate": "Real-time split-screen canvas; floating tactile tool palette; dynamic AI weight slider; quick prompt booster.",
+          "key_components": ["Split Canvas Renderer", "Tactile Tool Palette", "AI Strength Slider"],
+          "recommended_stack": "React, WebGL, Canvas API, WebSockets"
+        },
+        {
+          "rank": 10,
+          "name": "Suno",
+          "url": "https://suno.com",
+          "design_style": "Musical Social Feed / Synced Karaoke Lyrics",
+          "highlights": "Generative music platform; persistent audio player bar; real-time synced lyrics; track remix tree.",
+          "patterns_to_imitate": "Persistent audio player footer bar; synced karaoke-style lyrics scroller; track variation and remix tree.",
+          "key_components": ["Sticky Audio Player", "Synced Lyric Scroller", "Track Variation Tree"],
+          "recommended_stack": "Next.js, Tailwind CSS, Web Audio API"
+        }
+      ]
+    },
+    {
+      "id": "editorial-media",
+      "name": "Editorial, Media & Digital Storytelling",
+      "description": "Exemplary visual journalism, scrollytelling, high-contrast typography, and rich reading environments.",
+      "websites": [
+        {
+          "rank": 1,
+          "name": "The Pudding",
+          "url": "https://pudding.cool",
+          "design_style": "Visual Data Journalism / Interactive Scrollytelling",
+          "highlights": "The undisputed pioneer of visual essays; scroll-driven step-by-step chart transitions; explorable data.",
+          "patterns_to_imitate": "Scroll-driven step-by-step chart transitions; sticky data graphic with narrative text; audio clip integration.",
+          "key_components": ["Scrollytelling Sticky Viewport", "Step Controller", "D3 Interactive Chart"],
+          "recommended_stack": "D3.js, Svelte, Scrollama, Web Audio API"
+        },
+        {
+          "rank": 2,
+          "name": "The New York Times (Visuals)",
+          "url": "https://www.nytimes.com",
+          "design_style": "Journalistic Authority / Cheltenham Multi-Column Grid",
+          "highlights": "Gold standard for visual investigations and data journalism; 3D terrain maps; interactive timelines.",
+          "patterns_to_imitate": "Reading progress indicators; multi-column editorial grid; interactive explainer graphics; footnotes popovers.",
+          "key_components": ["Editorial Progress Bar", "Footnote Popover", "Interactive Timeline", "3D Map"],
+          "recommended_stack": "Custom NYT Framework, D3.js, Three.js, React"
+        },
+        {
+          "rank": 3,
+          "name": "The Verge",
+          "url": "https://www.theverge.com",
+          "design_style": "Retro-Cyberpunk Editorial / Storystream Live Feed",
+          "highlights": "Neon duotones; Storystream format bringing real-time social micro-updates into editorial coverage.",
+          "patterns_to_imitate": "Storystream live-feed component; bold contrasting neon color blocks; article reading time and share docks.",
+          "key_components": ["Storystream Feed", "Sticky Sharing Dock", "Duotone Hero Banner"],
+          "recommended_stack": "Next.js, Custom CMS, CSS Grid"
+        },
+        {
+          "rank": 4,
+          "name": "Pitchfork",
+          "url": "https://pitchfork.com",
+          "design_style": "Iconic Album Review Card / Score Badge Layout",
+          "highlights": "The definitive music review format; decimal score badge; rich album artwork; tracklist breakdowns.",
+          "patterns_to_imitate": "Decimal rating badge widget (e.g. 8.4); album tracklist accordions; sticky article audio snippet player.",
+          "key_components": ["Review Score Badge", "Tracklist Accordion", "Sticky Audio Player"],
+          "recommended_stack": "React, Next.js, GraphQL"
+        },
+        {
+          "rank": 5,
+          "name": "Wired",
+          "url": "https://www.wired.com",
+          "design_style": "Tech-Forward Magazine Grid / Gear Review Cards",
+          "highlights": "Modern technical magazine layout; high-contrast borders; gear review breakdown cards (Pros/Cons/Specs).",
+          "patterns_to_imitate": "Product review 'The Good / The Bad' cards; pull-quote typography; author byline cards with social links.",
+          "key_components": ["Pros & Cons Card", "Pull-Quote Callout", "Byline Card", "Review Summary Box"],
+          "recommended_stack": "React, Webpack, Custom Design System"
+        },
+        {
+          "rank": 6,
+          "name": "Bloomberg Graphics",
+          "url": "https://www.bloomberg.com/graphics",
+          "design_style": "High-Density Financial Telemetry / Scrollytelling",
+          "highlights": "World-class economic data visualizations; interactive calculators; scrollytelling with locked axes.",
+          "patterns_to_imitate": "Interactive economic sliders; scrollytelling sticky chart viewport; financial data legend tooltips.",
+          "key_components": ["Locked-Axis Chart", "Scenario Slider", "Interactive Data Legend"],
+          "recommended_stack": "D3.js, Svelte, Custom Bloomberg Charts"
+        },
+        {
+          "rank": 7,
+          "name": "It's Nice That",
+          "url": "https://www.itsnicethat.com",
+          "design_style": "Playful Creative Culture / Dynamic Masonry Tags",
+          "highlights": "Celebrates visual creativity; expansive, vibrant grid; color-coded tag pills; clean image framing.",
+          "patterns_to_imitate": "Dynamic color-coded category tags; masonry image layout; creative credit badges on artwork.",
+          "key_components": ["Masonry Grid", "Color-Coded Pill", "Creative Credit Badge", "Newsletter Drawer"],
+          "recommended_stack": "React, Next.js, Craft CMS"
+        },
+        {
+          "rank": 8,
+          "name": "Rest of World",
+          "url": "https://restofworld.org",
+          "design_style": "Global Multilingual Editorial / Distraction-Free Reader",
+          "highlights": "Exceptional reading typography supporting global languages; bespoke visual maps; clean reading mode.",
+          "patterns_to_imitate": "Multi-lingual typographic pairing; subtle reading mode controls; bespoke geographic map embeds.",
+          "key_components": ["Reading Mode Toggle", "Language Switcher", "Interactive Map Embed"],
+          "recommended_stack": "WordPress VIP, Timber/Twig, Tailwind CSS"
+        },
+        {
+          "rank": 9,
+          "name": "Kinfolk",
+          "url": "https://kinfolk.com",
+          "design_style": "Warm Editorial Minimalism / Generous Whitespace",
+          "highlights": "Masterclass in breathing room and understated luxury; delicate serif typography; slow editorial layout.",
+          "patterns_to_imitate": "Generous whitespace ratio; elegant serif font pairings; understated sticky navigation; full-bleed photo spreads.",
+          "key_components": ["Serif Headline Hero", "Sticky Minimal Nav", "Photo Essay Spread"],
+          "recommended_stack": "React, Next.js, Headless CMS"
+        },
+        {
+          "rank": 10,
+          "name": "Smashing Magazine",
+          "url": "https://www.smashingmagazine.com",
+          "design_style": "Exemplary Web Accessibility / Floating Table of Contents",
+          "highlights": "Web design publication benchmark for accessibility (a11y); clear floating table of contents; rich code styling.",
+          "patterns_to_imitate": "Floating table of contents with active section highlighting; accessible reading controls; author bio cards.",
+          "key_components": ["Active Table of Contents", "Code Syntax Block", "Accessibility Controls"],
+          "recommended_stack": "Hugo, JavaScript, Custom Responsive CSS"
+        }
+      ]
+    },
+    {
+      "id": "community-lifestyle",
+      "name": "Community, Educational & Lifestyle",
+      "description": "Engaging community networks, gamified educational products, and habit-forming lifestyle platforms.",
+      "websites": [
+        {
+          "rank": 1,
+          "name": "Duolingo",
+          "url": "https://www.duolingo.com",
+          "design_style": "Gamification Benchmark / 3D Isometric Learning Path",
+          "highlights": "World-class gamification UI; 3D isometric path; streak counters; celebratory micro-animations.",
+          "patterns_to_imitate": "Learning journey path (nodes, crowns, chests); streak flame counter; celebratory quiz completion modals.",
+          "key_components": ["Isometric Path Node", "Streak Counter Flame", "Quiz Action Sheet", "Reward Chest"],
+          "recommended_stack": "React, Webpack, Lottie Animations"
+        },
+        {
+          "rank": 2,
+          "name": "Airbnb",
+          "url": "https://www.airbnb.com",
+          "design_style": "Marketplace Gold Standard / Floating Expandable Search",
+          "highlights": "Sticky expandable search pill bar; category iconography slider; synchronized map and list split view.",
+          "patterns_to_imitate": "Expandable multi-step search bar (Where, When, Who); photo collage grid; split map/list view with synced hover.",
+          "key_components": ["Floating Expandable Search Bar", "Category Icon Slider", "Map Listing Split View"],
+          "recommended_stack": "React, Next.js, Custom Design System"
+        },
+        {
+          "rank": 3,
+          "name": "Readcv",
+          "url": "https://read.cv",
+          "design_style": "Anti-LinkedIn Creative Portfolio / Clean Timeline",
+          "highlights": "Distraction-free personal profile; project attachment previews; clean career timeline; zero-spam aesthetic.",
+          "patterns_to_imitate": "Clean career timeline UI; expandable media attachments; minimalist profile header; clean skill tag pills.",
+          "key_components": ["Career Timeline Card", "Attachment Previewer", "Profile Header", "Tag Pill"],
+          "recommended_stack": "Next.js, Tailwind CSS, Framer Motion"
+        },
+        {
+          "rank": 4,
+          "name": "Discord",
+          "url": "https://discord.com",
+          "design_style": "3-Tier Hierarchy / Voice HUD / Markdown Embeds",
+          "highlights": "Definitive community chat layout; 3-column navigation; voice channel status bar; contextual action popovers.",
+          "patterns_to_imitate": "3-tier sidebar hierarchy (Servers -> Channels -> Chat); voice room HUD; contextual message action popovers.",
+          "key_components": ["Server Rail", "Channel Tree", "Message Action Popover", "Voice Control HUD"],
+          "recommended_stack": "React, Electron, WebRTC, Flux"
+        },
+        {
+          "rank": 5,
+          "name": "Headspace",
+          "url": "https://www.headspace.com",
+          "design_style": "Calming Organic Shapes / Soothing Soundscape UI",
+          "highlights": "Designed for stress relief; soothing pastel color palettes; friendly character illustrations; progress rings.",
+          "patterns_to_imitate": "Soothing color psychology; mood check-in slider; audio meditation player with ambient background timer.",
+          "key_components": ["Mood Check-In Slider", "Audio Player Bar", "Daily Streak Ring"],
+          "recommended_stack": "React, Next.js, Styled Components"
+        },
+        {
+          "rank": 6,
+          "name": "MasterClass",
+          "url": "https://www.masterclass.com",
+          "design_style": "Cinematic Streaming Learning / Dark Luxury Theme",
+          "highlights": "Streaming entertainment UI applied to education; trailer video hover previews; structured lesson drawer.",
+          "patterns_to_imitate": "Cinematic video hero banners; syllabus progress checklist; hover video preview cards.",
+          "key_components": ["Video Hero Banner", "Syllabus Checklist Drawer", "Class Preview Card"],
+          "recommended_stack": "React, Next.js, Video.js"
+        },
+        {
+          "rank": 7,
+          "name": "Dribbble",
+          "url": "https://dribbble.com",
+          "design_style": "Visual Inspiration Feed / Dynamic Color Palette Swatch",
+          "highlights": "Creative community shot gallery; dynamic tag filters; interactive shot lightbox with color palette extractor.",
+          "patterns_to_imitate": "Media shot card with author attribution; color swatch extractor on images; quick save to collection modal.",
+          "key_components": ["Shot Card Grid", "Color Swatch Extractor", "Collection Modal", "Tag Filter Pill"],
+          "recommended_stack": "Ruby on Rails, React, Next.js"
+        },
+        {
+          "rank": 8,
+          "name": "Spotify Web",
+          "url": "https://open.spotify.com",
+          "design_style": "Persistent Playback Engine / Ambient Color Glow",
+          "highlights": "Persistent audio player bar; ambient color extractor matching album art; collapsible queue/lyrics side panel.",
+          "patterns_to_imitate": "Sticky player bottom bar; album art ambient glow; collapsible right-side drawer (lyrics/queue/artist info).",
+          "key_components": ["Sticky Player Bar", "Album Glow Canvas", "Collapsible Side Drawer", "Playlist Grid"],
+          "recommended_stack": "React, Web Playback SDK, Custom CSS"
+        },
+        {
+          "rank": 9,
+          "name": "Refind",
+          "url": "https://refind.com",
+          "design_style": "Curated Knowledge Digest / Summary Takeaways Cards",
+          "highlights": "Daily 5-link digest; key takeaways bullet points under links; clean reading backlog management.",
+          "patterns_to_imitate": "Summary takeaways card format; reading time estimation pills; simple thumbs-up/save action buttons.",
+          "key_components": ["Takeaways Card", "Reading Time Badge", "Save Action Button", "Daily Digest Feed"],
+          "recommended_stack": "React, Next.js, Tailwind CSS"
+        },
+        {
+          "rank": 10,
+          "name": "Behance",
+          "url": "https://www.behance.net",
+          "design_style": "Heavy Creative Case Study / Floating Appreciation Bar",
+          "highlights": "Long-form creative case study viewer; floating appreciation/like widget; creative tool badges (Photoshop, etc).",
+          "patterns_to_imitate": "Floating sticky appreciation bar; project credit breakdown; creative tool badge tags.",
+          "key_components": ["Floating Appreciation Bar", "Tool Badge Tag", "Project Credit Drawer"],
+          "recommended_stack": "React, Next.js, Adobe Spectrum"
+        }
+      ]
+    }
+  ]
+}

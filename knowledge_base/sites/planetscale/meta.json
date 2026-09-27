@@ -1,0 +1,46 @@
+{
+  "slug": "planetscale",
+  "name": "PlanetScale",
+  "url": "https://planetscale.com",
+  "category": "Developer Tools & Infrastructure",
+  "rank": 8,
+  "design_style": "Geometric Technical Drawings / High-Contrast Scheme",
+  "ui_highlights": "Brings Git concepts to relational databases; visual schema branching; deep query telemetry charts.",
+  "patterns_to_imitate": "Visual database branch graph; schema diff review modal; interactive query performance charts; deploy request pills.",
+  "key_components": [
+    "Branch Graph Tree",
+    "Schema Diff Viewer",
+    "Query Telemetry Graph"
+  ],
+  "recommended_stack": [
+    "Next.js",
+    "Tailwind CSS",
+    "D3.js"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Apple Color Emoji",
+      "Consolas",
+      "Liberation Mono",
+      "Menlo",
+      "Noto Color Emoji",
+      "SF Mono",
+      "SFMono-Regular",
+      "Segoe UI Emoji",
+      "Segoe UI Symbol",
+      "inherit",
+      "monospace",
+      "sans-serif",
+      "system-ui",
+      "ui-monospace",
+      "ui-sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

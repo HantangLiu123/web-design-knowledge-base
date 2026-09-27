@@ -1,0 +1,29 @@
+{
+  "slug": "airbnb",
+  "name": "Airbnb",
+  "url": "https://www.airbnb.com",
+  "category": "Community, Educational & Lifestyle",
+  "rank": 2,
+  "design_style": "Marketplace Gold Standard / Floating Expandable Search",
+  "ui_highlights": "Sticky expandable search pill bar; category iconography slider; synchronized map and list split view.",
+  "patterns_to_imitate": "Expandable multi-step search bar (Where",
+  "key_components": [
+    "When"
+  ],
+  "recommended_stack": [
+    "Who); photo collage grid; split map/list view with synced hover."
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

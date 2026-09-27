@@ -1,0 +1,48 @@
+{
+  "slug": "v0-by-vercel",
+  "name": "v0 by Vercel",
+  "url": "https://v0.dev",
+  "category": "AI-Native Applications",
+  "rank": 3,
+  "design_style": "Generative Component Canvas / Dual Code-Preview",
+  "ui_highlights": "AI generative UI platform; live React/Tailwind component rendering; version iteration branching.",
+  "patterns_to_imitate": "Component version branch selector; live code/preview toggle (desktop/mobile); inspect element to iterate.",
+  "key_components": [
+    "Version Branch Selector",
+    "Viewport Mode Toggle",
+    "Code Inspector Panel"
+  ],
+  "recommended_stack": [
+    "Next.js",
+    "Monaco Editor",
+    "Tailwind CSS"
+  ],
+  "detected_frameworks": [
+    "Radix UI"
+  ],
+  "typography": {
+    "font_families": [
+      "-apple-system",
+      "Apple Color Emoji",
+      "Arial",
+      "BlinkMacSystemFont",
+      "Consolas",
+      "Courier New",
+      "DejaVu Sans Mono",
+      "GeistMono",
+      "GeistSans",
+      "GeistSans Fallback",
+      "Helvetica Neue",
+      "KaTeX_AMS",
+      "KaTeX_Caligraphic",
+      "KaTeX_Fraktur",
+      "KaTeX_Main"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

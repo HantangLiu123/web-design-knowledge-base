@@ -1,0 +1,33 @@
+{
+  "slug": "midjourney",
+  "name": "Midjourney",
+  "url": "https://www.midjourney.com",
+  "category": "AI-Native Applications",
+  "rank": 5,
+  "design_style": "Infinite Canvas / High-Density Art Lightbox",
+  "ui_highlights": "Infinite visual canvas for generated art; prompt parameter metadata cards; one-click remix/upscale tools.",
+  "patterns_to_imitate": "Infinite masonry image grid; prompt parameter tags inspector; instant lightbox with upscale/variation tools.",
+  "key_components": [
+    "Masonry Canvas",
+    "Prompt Inspector Lightbox",
+    "Upscale Action Bar"
+  ],
+  "recommended_stack": [
+    "Svelte",
+    "Next.js",
+    "Tailwind CSS"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

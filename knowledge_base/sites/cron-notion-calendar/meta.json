@@ -1,0 +1,49 @@
+{
+  "slug": "cron-notion-calendar",
+  "name": "Cron (Notion Calendar)",
+  "url": "https://www.notion.so/product/calendar",
+  "category": "SaaS & Productivity",
+  "rank": 5,
+  "design_style": "Ultra-Clean Time-Blocking / Minimalist Grid",
+  "ui_highlights": "Redefined digital calendar UX with keyboard shortcuts, time-zone scrubbing, and distraction-free scheduling.",
+  "patterns_to_imitate": "Time grid drag-to-create; time-zone scrub overlay; quick meeting link generation; seamless theme switching.",
+  "key_components": [
+    "Time-Grid Calendar",
+    "Timezone Scrubber",
+    "Event Popover",
+    "Quick Booker"
+  ],
+  "recommended_stack": [
+    "Next.js",
+    "React",
+    "Tailwind CSS"
+  ],
+  "detected_frameworks": [
+    "Next.js"
+  ],
+  "typography": {
+    "font_families": [
+      "-apple-system",
+      "BlinkMacSystemFont",
+      "Georgia",
+      "Lyon Text",
+      "Lyon-Text",
+      "NotionInter",
+      "Noto Sans Arabic",
+      "Noto Sans Hebrew",
+      "Permanent Marker",
+      "iA Writer Mono",
+      "inherit",
+      "monospace",
+      "sans-serif",
+      "serif",
+      "ui-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

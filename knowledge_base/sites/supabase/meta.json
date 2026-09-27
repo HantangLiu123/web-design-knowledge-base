@@ -1,0 +1,44 @@
+{
+  "slug": "supabase",
+  "name": "Supabase",
+  "url": "https://supabase.com",
+  "category": "Developer Tools & Infrastructure",
+  "rank": 2,
+  "design_style": "Obsidian Emerald / Retro-Futuristic Tech",
+  "ui_highlights": "Emerald neon accents on deep dark backgrounds; interactive multi-language code switchers; SQL console.",
+  "patterns_to_imitate": "Multi-language code tabs (JS",
+  "key_components": [
+    "Python"
+  ],
+  "recommended_stack": [
+    "Dart"
+  ],
+  "detected_frameworks": [
+    "Radix UI"
+  ],
+  "typography": {
+    "font_families": [
+      "-apple-system",
+      "Apple Color Emoji",
+      "Arial",
+      "BlinkMacSystemFont",
+      "Consolas",
+      "Courier New",
+      "Departure Mono Superbase",
+      "Droid Sans",
+      "Helvetica",
+      "Helvetica Neue",
+      "Inter",
+      "Inter Fallback",
+      "Liberation Mono",
+      "Manrope",
+      "Manrope Fallback"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

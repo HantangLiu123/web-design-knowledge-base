@@ -1,0 +1,33 @@
+{
+  "slug": "claude-by-anthropic",
+  "name": "Claude by Anthropic",
+  "url": "https://claude.ai",
+  "category": "AI-Native Applications",
+  "rank": 2,
+  "design_style": "Serene Editorial / Artifacts Dual-Pane Workspace",
+  "ui_highlights": "Pioneered Artifacts UI; warm terracotta and ivory palette; side-by-side interactive code/UI sandbox.",
+  "patterns_to_imitate": "Dual-pane chat + artifact split screen; live interactive HTML/SVG sandbox; calm editorial typography.",
+  "key_components": [
+    "Artifacts Split Pane",
+    "Interactive Sandbox Runner",
+    "Prompt Textarea"
+  ],
+  "recommended_stack": [
+    "Next.js",
+    "Tailwind CSS",
+    "Custom Markdown Parser"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

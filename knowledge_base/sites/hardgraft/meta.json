@@ -1,0 +1,32 @@
+{
+  "slug": "hardgraft",
+  "name": "hardgraft",
+  "url": "https://www.hardgraft.com",
+  "category": "E-Commerce & Direct-to-Consumer (D2C)",
+  "rank": 9,
+  "design_style": "Raw Artisanal Luxury / High-Resolution Masonry Grid",
+  "ui_highlights": "Distraction-free artisanal leather goods; full-bleed masonry image grid; subtle price reveal on hover.",
+  "patterns_to_imitate": "Image-dominant masonry catalog; minimal hover price and title reveal; distraction-free product detail page.",
+  "key_components": [
+    "Full-Bleed Masonry Grid",
+    "Subtle Hover Overlay",
+    "Minimal Checkout Accordion"
+  ],
+  "recommended_stack": [
+    "Shopify Plus",
+    "Custom Liquid/JS"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "fantasy-fi",
+  "name": "Fantasy (FI)",
+  "url": "https://fantasy.co",
+  "category": "Creative Studios & Interactive Experiences",
+  "rank": 10,
+  "design_style": "Futuristic UI Concepts / Cinematic Case Studies",
+  "ui_highlights": "Pioneering future operating systems, automotive dashboards, and AI agents with cinematic design walk-throughs.",
+  "patterns_to_imitate": "Video-rich UI concept walkthroughs; sticky feature breakdown sidebars; prototype interaction recordings.",
+  "key_components": [
+    "Cinematic Video Banner",
+    "Sticky Spec Sidebar",
+    "Interactive Prototype Frame"
+  ],
+  "recommended_stack": [
+    "React",
+    "Next.js",
+    "Framer Motion"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

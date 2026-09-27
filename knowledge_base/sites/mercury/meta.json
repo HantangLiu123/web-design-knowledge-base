@@ -1,0 +1,49 @@
+{
+  "slug": "mercury",
+  "name": "Mercury",
+  "url": "https://mercury.com",
+  "category": "Modern Fintech & Banking",
+  "rank": 2,
+  "design_style": "Deep Jewel Tones / Modern Corporate Banking",
+  "ui_highlights": "Calm banking UX for startups; multi-entity account switchers; clean wire transfer modal wizard.",
+  "patterns_to_imitate": "Financial telemetry sparklines; multi-company switcher; one-click card freeze toggle; wire transfer step wizard.",
+  "key_components": [
+    "Account Balance Sparkline",
+    "Card Freeze Toggle",
+    "Multi-Company Dropdown",
+    "Transfer Wizard"
+  ],
+  "recommended_stack": [
+    "React",
+    "Next.js",
+    "Styled Components"
+  ],
+  "detected_frameworks": [
+    "Radix UI"
+  ],
+  "typography": {
+    "font_families": [
+      "Apple Color Emoji",
+      "Consolas",
+      "Courier New",
+      "Liberation Mono",
+      "Menlo",
+      "Monaco",
+      "Noto Color Emoji",
+      "SFMono-Regular",
+      "Segoe UI Emoji",
+      "Segoe UI Symbol",
+      "arcadia",
+      "arcadia Fallback",
+      "arcadiaDisplay",
+      "arcadiaDisplay Fallback",
+      "monospace"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

@@ -1,0 +1,7 @@
+/* Extracted CSS Variables for The Verge (https://www.theverge.com) */
+:root {
+  --font-fkroman: 'fkRomanStandard', 'fkRomanStandard Fallback', Georgia, serif;
+  --font-manuka: 'manuka', 'manuka Fallback', Impact, Helvetica, sans-serif;
+  --font-polysans: 'polySans', 'polySans Fallback', Helvetica, Arial, sans-serif;
+  --font-polysans-mono: 'polySansMono', 'polySansMono Fallback', Courier New, Courier, monospace;
+}

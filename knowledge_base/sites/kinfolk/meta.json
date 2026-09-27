@@ -1,0 +1,46 @@
+{
+  "slug": "kinfolk",
+  "name": "Kinfolk",
+  "url": "https://kinfolk.com",
+  "category": "Editorial, Media & Digital Storytelling",
+  "rank": 9,
+  "design_style": "Warm Editorial Minimalism / Generous Whitespace",
+  "ui_highlights": "Masterclass in breathing room and understated luxury; delicate serif typography; slow editorial layout.",
+  "patterns_to_imitate": "Generous whitespace ratio; elegant serif font pairings; understated sticky navigation; full-bleed photo spreads.",
+  "key_components": [
+    "Serif Headline Hero",
+    "Sticky Minimal Nav",
+    "Photo Essay Spread"
+  ],
+  "recommended_stack": [
+    "React",
+    "Next.js",
+    "Headless CMS"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "-apple-system",
+      "Cantarell",
+      "FontAwesomeSATT",
+      "Helvetica Neue",
+      "Kinfolk-Sans",
+      "Kinfolk-Sans-Italic",
+      "Kinfolk-Serif-Deck",
+      "Kinfolk-Serif-Display",
+      "Kinfolk-Serif-Text",
+      "Kinfolk-Serif-Text-Italic",
+      "Oxygen-Sans",
+      "Roboto",
+      "Segoe UI",
+      "Ubuntu",
+      "inherit"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

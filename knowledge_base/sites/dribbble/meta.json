@@ -1,0 +1,33 @@
+{
+  "slug": "dribbble",
+  "name": "Dribbble",
+  "url": "https://dribbble.com",
+  "category": "Community, Educational & Lifestyle",
+  "rank": 7,
+  "design_style": "Visual Inspiration Feed / Dynamic Color Palette Swatch",
+  "ui_highlights": "Creative community shot gallery; dynamic tag filters; interactive shot lightbox with color palette extractor.",
+  "patterns_to_imitate": "Media shot card with author attribution; color swatch extractor on images; quick save to collection modal.",
+  "key_components": [
+    "Shot Card Grid",
+    "Color Swatch Extractor",
+    "Collection Modal",
+    "Tag Filter Pill"
+  ],
+  "recommended_stack": [
+    "Ruby on Rails",
+    "React",
+    "Next.js"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Arial"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

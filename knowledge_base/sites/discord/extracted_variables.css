@@ -1,0 +1,29 @@
+/* Extracted CSS Variables for Discord (https://discord.com) */
+:root {
+  --always-white: white;
+  --black: #060a0b;
+  --blurple: #5865f2;
+  --button-hover: #8891f2;
+  --dark-blurple: #3442d9;
+  --dark-button-hover: #3b3b3b;
+  --dark-charcoal: #2c2f33;
+  --dim-grey: #50555f;
+  --ekko-red: #de2761;
+  --fuchsia: #eb459e;
+  --green: #52f180;
+  --greyple: #99aab5;
+  --mint-green: #43b581;
+  --navy-blue: #24173f;
+  --not-quite-black: #23272a;
+  --off-white: #f6f6f6;
+  --orange: #fda220;
+  --pinc-2: #dc4195;
+  --pink: #ffcdee;
+  --purple: #808aff;
+  --red: #ed4245;
+  --refresh-blue: #161cbb;
+  --spring-green: #57f287;
+  --vivid-cerulean: #00b0f4;
+  --white: #fff;
+  --yellow: #fee75c;
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "bang-olufsen",
+  "name": "Bang & Olufsen",
+  "url": "https://www.bang-olufsen.com",
+  "category": "E-Commerce & Direct-to-Consumer (D2C)",
+  "rank": 3,
+  "design_style": "Scandinavian Minimalism / 360 Material Showcase",
+  "ui_highlights": "High-fidelity luxury audio showcase; acoustic visualization; interactive 3D material and finish selector.",
+  "patterns_to_imitate": "Material & colorway switcher; full-bleed immersive hero video sliders; acoustic feature breakdown modules.",
+  "key_components": [
+    "3D Material Switcher",
+    "Full-Bleed Video Slider",
+    "Acoustic Feature Cards"
+  ],
+  "recommended_stack": [
+    "React",
+    "Three.js",
+    "Commercetools"
+  ],
+  "detected_frameworks": [
+    "Next.js"
+  ],
+  "typography": {
+    "font_families": [
+      "Arial",
+      "BaskervilleBT-BoldItalic",
+      "BeoLogue",
+      "BeoSupreme",
+      "Fastpen",
+      "Helvetica",
+      "Lexend Deca",
+      "Noto",
+      "icons",
+      "icons!important",
+      "inherit",
+      "monospace",
+      "object-fit: cover",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

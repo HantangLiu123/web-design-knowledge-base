@@ -1,0 +1,47 @@
+{
+  "slug": "resend",
+  "name": "Resend",
+  "url": "https://resend.com",
+  "category": "Developer Tools & Infrastructure",
+  "rank": 3,
+  "design_style": "Ultra-Minimalist Black & White / Code-First",
+  "ui_highlights": "Distraction-free email API platform; live React email preview pane; instant API key copy; clean analytics.",
+  "patterns_to_imitate": "Split code editor + live email preview; frictionless API key generation; clean quota usage progress bars.",
+  "key_components": [
+    "Live Template Preview",
+    "API Key Revealer",
+    "Quota Bar",
+    "Event Stream Log"
+  ],
+  "recommended_stack": [
+    "Next.js",
+    "Tailwind CSS",
+    "Framer Motion"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Apple Color Emoji",
+      "Consolas",
+      "Courier New",
+      "Liberation Mono",
+      "Menlo",
+      "Monaco",
+      "Noto Color Emoji\")",
+      "Noto Color Emoji\"))",
+      "SFMono-Regular",
+      "Segoe UI Emoji",
+      "Segoe UI Symbol",
+      "aBCFavorit",
+      "commitMono",
+      "domaine",
+      "inter"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "toyfight",
+  "name": "ToyFight",
+  "url": "https://toyFight.co",
+  "category": "Creative Studios & Interactive Experiences",
+  "rank": 8,
+  "design_style": "Playful 3D Figurines / Cheeky Neo-Brutalism",
+  "ui_highlights": "Humorous 3D action figurines; physics-based collisions; bold two-tone color blocking.",
+  "patterns_to_imitate": "3D figurines that collide and tumble on scroll; humorous micro-copy; bold contrasting color split sections.",
+  "key_components": [
+    "3D Physics Canvas",
+    "Color Block Splitter",
+    "Action Toy Card"
+  ],
+  "recommended_stack": [
+    "Three.js",
+    "Cannon.js physics",
+    "GSAP"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "FKRasterGrotesk",
+      "FKRasterGrotesk Fallback",
+      "SpeziaCondensed",
+      "SpeziaCondensed Fallback",
+      "SpeziaMono",
+      "SpeziaMono Fallback"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

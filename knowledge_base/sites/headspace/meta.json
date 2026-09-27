@@ -1,0 +1,38 @@
+{
+  "slug": "headspace",
+  "name": "Headspace",
+  "url": "https://www.headspace.com",
+  "category": "Community, Educational & Lifestyle",
+  "rank": 5,
+  "design_style": "Calming Organic Shapes / Soothing Soundscape UI",
+  "ui_highlights": "Designed for stress relief; soothing pastel color palettes; friendly character illustrations; progress rings.",
+  "patterns_to_imitate": "Soothing color psychology; mood check-in slider; audio meditation player with ambient background timer.",
+  "key_components": [
+    "Mood Check-In Slider",
+    "Audio Player Bar",
+    "Daily Streak Ring"
+  ],
+  "recommended_stack": [
+    "React",
+    "Next.js",
+    "Styled Components"
+  ],
+  "detected_frameworks": [
+    "Next.js"
+  ],
+  "typography": {
+    "font_families": [
+      "Apercu Pro Mono",
+      "Headspace Apercu",
+      "inherit",
+      "monospace",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

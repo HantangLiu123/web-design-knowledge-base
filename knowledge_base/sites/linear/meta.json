@@ -1,0 +1,35 @@
+{
+  "slug": "linear",
+  "name": "Linear",
+  "url": "https://linear.app",
+  "category": "SaaS & Productivity",
+  "rank": 1,
+  "design_style": "Cyber-Minimalist / Precision Dark Mode",
+  "ui_highlights": "Defined modern tech aesthetic; instant keyboard-first workflows; subtle border gradients; ultra-fluid transitions.",
+  "patterns_to_imitate": "Command palette (Cmd+K); subtle border glowing; high-density issue lists; instant optimistic UI updates.",
+  "key_components": [
+    "Command Menu",
+    "Issue Board",
+    "Shortcut Tooltips",
+    "Toast Notifications"
+  ],
+  "recommended_stack": [
+    "Next.js",
+    "Tailwind CSS",
+    "Radix UI",
+    "Framer Motion"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

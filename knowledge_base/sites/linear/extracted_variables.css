@@ -1,0 +1,11 @@
+/* Extracted CSS Variables for Linear (https://linear.app) */
+:root {
+  --anchor-glass-bg: #ffffff14;
+  --anim-amount: 48px;
+  --description: var(--color-text-secondary);
+  --duration: .18s;
+  --edge-glow-tint: var(--edge-glow-color,#ffffff08);
+  --header-border: #00000014;
+  --offset: 16px;
+  --shine-beam-length: 200px;
+}

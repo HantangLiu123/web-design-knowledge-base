@@ -1,0 +1,33 @@
+{
+  "slug": "ramp",
+  "name": "Ramp",
+  "url": "https://ramp.com",
+  "category": "Modern Fintech & Banking",
+  "rank": 7,
+  "design_style": "Enterprise Spend Velocity / Monospace Precision",
+  "ui_highlights": "High-growth corporate spend platform; interactive ROI savings calculator; live card policy rules.",
+  "patterns_to_imitate": "Interactive savings calculator; automated expense approval hierarchy tree; live card spending limit sliders.",
+  "key_components": [
+    "ROI Savings Calculator",
+    "Approval Tree Visualizer",
+    "Spending Limit Slider"
+  ],
+  "recommended_stack": [
+    "Next.js",
+    "Tailwind CSS",
+    "Framer Motion"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

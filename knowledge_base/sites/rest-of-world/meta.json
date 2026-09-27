@@ -1,0 +1,45 @@
+{
+  "slug": "rest-of-world",
+  "name": "Rest of World",
+  "url": "https://restofworld.org",
+  "category": "Editorial, Media & Digital Storytelling",
+  "rank": 8,
+  "design_style": "Global Multilingual Editorial / Distraction-Free Reader",
+  "ui_highlights": "Exceptional reading typography supporting global languages; bespoke visual maps; clean reading mode.",
+  "patterns_to_imitate": "Multi-lingual typographic pairing; subtle reading mode controls; bespoke geographic map embeds.",
+  "key_components": [
+    "Reading Mode Toggle",
+    "Language Switcher",
+    "Interactive Map Embed"
+  ],
+  "recommended_stack": [
+    "WordPress VIP",
+    "Timber/Twig",
+    "Tailwind CSS"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Courier",
+      "GT Sectra",
+      "Georgia",
+      "Input Mono",
+      "Lucida Console",
+      "Moderat",
+      "Monaco",
+      "Roboto Mono",
+      "SFMono-Regular",
+      "Times New Roman",
+      "inherit",
+      "monospace",
+      "sans-serif",
+      "serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

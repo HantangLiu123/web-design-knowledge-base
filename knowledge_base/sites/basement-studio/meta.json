@@ -1,0 +1,40 @@
+{
+  "slug": "basement-studio",
+  "name": "Basement Studio",
+  "url": "https://basement.studio",
+  "category": "Creative Studios & Interactive Experiences",
+  "rank": 4,
+  "design_style": "High-Octane Dark Mode / Lenis Smooth Scroll / Retro Glitch",
+  "ui_highlights": "Creators of Lenis; retro-futuristic glitch micro-animations; spatial audio feedback; custom typography.",
+  "patterns_to_imitate": "Lenis smooth scroll physics; sound effect hover feedback; magnetic buttons; dynamic viewport scaling.",
+  "key_components": [
+    "Lenis Scroll Provider",
+    "Magnetic Button",
+    "Glitch Shader Canvas",
+    "Sound FX Toggle"
+  ],
+  "recommended_stack": [
+    "Next.js",
+    "Lenis",
+    "GSAP",
+    "Tailwind CSS"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Geist",
+      "Geist Fallback",
+      "Geist Mono",
+      "Geist Mono Fallback",
+      "flauta",
+      "flauta Fallback",
+      "inherit"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

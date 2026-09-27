@@ -1,0 +1,50 @@
+{
+  "slug": "discord",
+  "name": "Discord",
+  "url": "https://discord.com",
+  "category": "Community, Educational & Lifestyle",
+  "rank": 4,
+  "design_style": "3-Tier Hierarchy / Voice HUD / Markdown Embeds",
+  "ui_highlights": "Definitive community chat layout; 3-column navigation; voice channel status bar; contextual action popovers.",
+  "patterns_to_imitate": "3-tier sidebar hierarchy (Servers -> Channels -> Chat); voice room HUD; contextual message action popovers.",
+  "key_components": [
+    "Server Rail",
+    "Channel Tree",
+    "Message Action Popover",
+    "Voice Control HUD"
+  ],
+  "recommended_stack": [
+    "React",
+    "Electron",
+    "WebRTC",
+    "Flux"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "ABC Ginto Normal",
+      "ABCGintoNormal-Bold",
+      "Abcgintodiscord",
+      "Abcgintodiscordnord",
+      "Abcgintodiscordnord-italic",
+      "Abcgintonord 800",
+      "Arial",
+      "Ggsans",
+      "Ggsansmono",
+      "Ginto",
+      "Ginto nord",
+      "Ginto nord 900",
+      "Helvetica",
+      "Helvetica Neue",
+      "Lucida Grande"
+    ],
+    "font_links": [
+      "https://fonts.googleapis.com"
+    ]
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

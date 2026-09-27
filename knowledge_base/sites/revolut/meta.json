@@ -1,0 +1,33 @@
+{
+  "slug": "revolut",
+  "name": "Revolut",
+  "url": "https://www.revolut.com",
+  "category": "Modern Fintech & Banking",
+  "rank": 5,
+  "design_style": "Dark Sleek Fintech / Glowing Neon Multi-Currency",
+  "ui_highlights": "Multi-feature financial super-app; dynamic debit card visualizer; lifestyle perks mega-menu.",
+  "patterns_to_imitate": "Custom debit card 3D visualizer; mega-menu feature directory; stock/crypto trading preview cards.",
+  "key_components": [
+    "Card 3D Visualizer",
+    "Mega-Menu Directory",
+    "Investment Ticker Preview"
+  ],
+  "recommended_stack": [
+    "React",
+    "Next.js",
+    "Framer Motion"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

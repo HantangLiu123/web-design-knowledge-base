@@ -1,0 +1,37 @@
+{
+  "slug": "superhuman",
+  "name": "Superhuman",
+  "url": "https://superhuman.com",
+  "category": "SaaS & Productivity",
+  "rank": 9,
+  "design_style": "High-Speed Monochromatic / Hotkey-First",
+  "ui_highlights": "Zero-inbox philosophy; lightning-fast execution (<100ms response); distraction-free typography.",
+  "patterns_to_imitate": "Keyboard-first navigation (no mouse required); split-inbox tabs; hotkey cheat sheets; minimal email reading pane.",
+  "key_components": [
+    "Split Inbox Tabs",
+    "Hotkey Helper Modal",
+    "Quick Action Bar",
+    "Snippet Injector"
+  ],
+  "recommended_stack": [
+    "React",
+    "Custom Keyboard Engine"
+  ],
+  "detected_frameworks": [
+    "Next.js"
+  ],
+  "typography": {
+    "font_families": [
+      "Super Sans Mono VF",
+      "Super Sans VF",
+      "Super Serif VF",
+      "inherit"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

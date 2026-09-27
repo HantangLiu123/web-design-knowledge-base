@@ -1,0 +1,45 @@
+{
+  "slug": "teenage-engineering",
+  "name": "Teenage Engineering",
+  "url": "https://teenage.engineering",
+  "category": "E-Commerce & Direct-to-Consumer (D2C)",
+  "rank": 4,
+  "design_style": "Industrial Design Blueprint / Retro-Tactile Minimalism",
+  "ui_highlights": "Dieter Rams-inspired industrial aesthetics; blueprint schematics; interactive browser-playable synths.",
+  "patterns_to_imitate": "Schematic line-art product displays; interactive digital knobs/keys; raw monospace spec tables; minimal grid.",
+  "key_components": [
+    "Interactive Synth Knobs",
+    "Schematic Wireframe Card",
+    "Specs Table"
+  ],
+  "recommended_stack": [
+    "Vue.js / Nuxt",
+    "Web Audio API",
+    "Canvas"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "TechnoType",
+      "Unicode",
+      "UniversNextPro Thin",
+      "UniversNextPro-Thin",
+      "UniversTE20T",
+      "UniversTE40L",
+      "franxurter",
+      "riddim",
+      "riddimscript",
+      "swingus",
+      "te-20",
+      "te-40",
+      "te-vjs",
+      "ttregular"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

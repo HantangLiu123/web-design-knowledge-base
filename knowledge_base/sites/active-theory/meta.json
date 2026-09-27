@@ -1,0 +1,33 @@
+{
+  "slug": "active-theory",
+  "name": "Active Theory",
+  "url": "https://activetheory.net",
+  "category": "Creative Studios & Interactive Experiences",
+  "rank": 1,
+  "design_style": "Experimental WebGL / Console-Grade 3D Particles",
+  "ui_highlights": "Pushes browser rendering limits; custom WebGL engine; interactive 3D particle systems; spatial audio.",
+  "patterns_to_imitate": "WebGL particle canvas backgrounds; custom cursor magnetic distortion; spatial audio toggles; 3D navigation.",
+  "key_components": [
+    "WebGL Canvas Engine",
+    "Sound FX Switcher",
+    "Cursor Distortion",
+    "Spatial Project Grid"
+  ],
+  "recommended_stack": [
+    "Custom WebGL (Hydra Engine)",
+    "Three.js",
+    "Web Audio API"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "nbarchitekt"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "monzo",
+  "name": "Monzo",
+  "url": "https://monzo.com",
+  "category": "Modern Fintech & Banking",
+  "rank": 9,
+  "design_style": "Friendly Hot-Coral / Conversational Banking",
+  "ui_highlights": "Famous hot-coral branding; visual savings goals; collaborative bill splitting and instant notifications.",
+  "patterns_to_imitate": "Visual 'Savings Pots' with target progress rings; split-the-bill friend selector; instant spending breakdown pie.",
+  "key_components": [
+    "Savings Pot Ring",
+    "Bill Splitter Drawer",
+    "Spending Category Breakdown"
+  ],
+  "recommended_stack": [
+    "React",
+    "Next.js",
+    "Custom Web Framework"
+  ],
+  "detected_frameworks": [
+    "Radix UI",
+    "Next.js"
+  ],
+  "typography": {
+    "font_families": [
+      "Arial",
+      "Avenir",
+      "Helvetica",
+      "Helvetica Neue",
+      "HelveticaNeue",
+      "Maison Neue Mono Web",
+      "Maison Neue Web",
+      "Montserrat",
+      "Monzo Sans Display",
+      "MonzoSansDisplay",
+      "MonzoSansText",
+      "Oldschool",
+      "inherit",
+      "monospace",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

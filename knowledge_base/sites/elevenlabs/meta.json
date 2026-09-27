@@ -1,0 +1,29 @@
+{
+  "slug": "elevenlabs",
+  "name": "ElevenLabs",
+  "url": "https://elevenlabs.io",
+  "category": "AI-Native Applications",
+  "rank": 7,
+  "design_style": "Sound Wave Telemetry / Sleek Voice Library Cards",
+  "ui_highlights": "Interactive voice synthesis playground; real-time waveform audio scrubbers; voice cloning recorder.",
+  "patterns_to_imitate": "Waveform audio scrubber; voice timbre/accent filter tags; live TTS slider controls (stability",
+  "key_components": [
+    "clarity)."
+  ],
+  "recommended_stack": [
+    "Waveform Audio Player; Voice Filter Tags; Stability Slider Control"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

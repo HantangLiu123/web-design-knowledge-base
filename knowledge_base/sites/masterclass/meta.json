@@ -1,0 +1,33 @@
+{
+  "slug": "masterclass",
+  "name": "MasterClass",
+  "url": "https://www.masterclass.com",
+  "category": "Community, Educational & Lifestyle",
+  "rank": 6,
+  "design_style": "Cinematic Streaming Learning / Dark Luxury Theme",
+  "ui_highlights": "Streaming entertainment UI applied to education; trailer video hover previews; structured lesson drawer.",
+  "patterns_to_imitate": "Cinematic video hero banners; syllabus progress checklist; hover video preview cards.",
+  "key_components": [
+    "Video Hero Banner",
+    "Syllabus Checklist Drawer",
+    "Class Preview Card"
+  ],
+  "recommended_stack": [
+    "React",
+    "Next.js",
+    "Video.js"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

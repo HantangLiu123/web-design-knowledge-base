@@ -1,0 +1,49 @@
+{
+  "slug": "notion",
+  "name": "Notion",
+  "url": "https://www.notion.so",
+  "category": "SaaS & Productivity",
+  "rank": 3,
+  "design_style": "Clean Monochromatic / Hand-drawn Accents",
+  "ui_highlights": "Pioneer of modular block-based document editing; calm whitespace; collapsible sidebars; playful illustrations.",
+  "patterns_to_imitate": "Slash command (/) inline menus; drag-and-drop block handles; nested page hierarchy; clean sidebar nav.",
+  "key_components": [
+    "Slash Menu",
+    "Block Drag Handle",
+    "Multi-column Layout",
+    "Breadcrumbs"
+  ],
+  "recommended_stack": [
+    "React",
+    "Custom Canvas/DOM Editor",
+    "CSS Modules"
+  ],
+  "detected_frameworks": [
+    "Next.js"
+  ],
+  "typography": {
+    "font_families": [
+      "-apple-system",
+      "Apple Color Emoji",
+      "Arial",
+      "BlinkMacSystemFont",
+      "Helvetica",
+      "Lyon Text",
+      "NotionInter",
+      "Noto Sans Arabic",
+      "Noto Sans Hebrew",
+      "Permanent Marker",
+      "Roboto",
+      "SF Pro Rounded",
+      "Segoe UI",
+      "Segoe UI Emoji",
+      "Segoe UI Symbol"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

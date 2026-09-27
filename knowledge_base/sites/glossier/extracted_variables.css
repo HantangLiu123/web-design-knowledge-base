@@ -1,0 +1,45 @@
+/* Extracted CSS Variables for Glossier (https://www.glossier.com) */
+:root {
+  --recharge-app-background: transparent;
+  --recharge-app-container: 100%;
+  --recharge-app-vertical-padding: 10px;
+  --recharge-button-border-radius: 0;
+  --recharge-button-brand: var(--recharge-color-brand);
+  --recharge-button-color: #000;
+  --recharge-button-font-family: inherit;
+  --recharge-cards-background: #fff;
+  --recharge-cards-border-color: var(--recharge-cards-background);
+  --recharge-color-brand: $black;
+  --recharge-color-brand-120: #000;
+  --recharge-color-brand-20: #eee;
+  --recharge-color-brand-40: #b3b3b3;
+  --recharge-color-brand-60: #f7f7f7;
+  --recharge-color-brand-75: #f0f0f0;
+  --recharge-color-brand-85: #e8e8e8;
+  --recharge-color-neutral: #000;
+  --recharge-color-neutral-10: #9f9f9f;
+  --recharge-color-neutral-40: #777;
+  --recharge-color-neutral-70: #666;
+  --recharge-color-neutral-80: #464545;
+  --recharge-color-positive: #fff;
+  --recharge-corners-radius: 0;
+  --recharge-images-ratio: 1/1.33;
+  --recharge-typography-body-font-family: "Apercu","Gill Sans",sans-serif;
+  --recharge-typography-body-font-weight: 400;
+  --recharge-typography-heading-font-family: "Apercu","Gill Sans",sans-serif;
+  --recharge-typography-heading-font-weight: 400;
+  --recharge-typography-light: #000;
+  --recharge-typography-primary: var(--recharge-color-neutral);
+  --recharge-typography-scale: 16px;
+  --recharge-typography-secondary: var(--recharge-color-neutral-70);
+  --recharge-typography-size-1: calc(3 _ var(--recharge-typography-scale));
+  --recharge-typography-size-2: calc(2.25 _ var(--recharge-typography-scale));
+  --recharge-typography-size-3: calc(1.625 _ var(--recharge-typography-scale));
+  --recharge-typography-size-4: 20px;
+  --recharge-typography-size-5: 14px;
+  --recharge-typography-size-6: calc(.875 _ var(--recharge-typography-scale));
+  --recharge-typography-size-7: calc(.75 \* var(--recharge-typography-scale));
+  --recharge-view-container: 100%;
+  --recharge-views-background: #fff;
+  --slides-per-view: 1;
+}

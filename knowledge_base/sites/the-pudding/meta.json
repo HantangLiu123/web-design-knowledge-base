@@ -1,0 +1,40 @@
+{
+  "slug": "the-pudding",
+  "name": "The Pudding",
+  "url": "https://pudding.cool",
+  "category": "Editorial, Media & Digital Storytelling",
+  "rank": 1,
+  "design_style": "Visual Data Journalism / Interactive Scrollytelling",
+  "ui_highlights": "The undisputed pioneer of visual essays; scroll-driven step-by-step chart transitions; explorable data.",
+  "patterns_to_imitate": "Scroll-driven step-by-step chart transitions; sticky data graphic with narrative text; audio clip integration.",
+  "key_components": [
+    "Scrollytelling Sticky Viewport",
+    "Step Controller",
+    "D3 Interactive Chart"
+  ],
+  "recommended_stack": [
+    "D3.js",
+    "Svelte",
+    "Scrollama",
+    "Web Audio API"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Atlas Grotesk",
+      "Atlas Typewriter",
+      "Gooper SemiCondensed",
+      "Tiempos Text",
+      "inherit",
+      "monospace",
+      "sans-serif)",
+      "serif)"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

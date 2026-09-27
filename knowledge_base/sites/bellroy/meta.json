@@ -1,0 +1,46 @@
+{
+  "slug": "bellroy",
+  "name": "Bellroy",
+  "url": "https://bellroy.com",
+  "category": "E-Commerce & Direct-to-Consumer (D2C)",
+  "rank": 6,
+  "design_style": "Functional Lifestyle D2C / Problem-Solution Sliders",
+  "ui_highlights": "Famous 'Slim Your Wallet' interactive slider comparing bulky vs Bellroy wallets with card count controls.",
+  "patterns_to_imitate": "Interactive thickness comparison slider; pocket-fit visualization; feature hotspot popovers on product images.",
+  "key_components": [
+    "Comparison Thickness Slider",
+    "Image Hotspot Popover",
+    "Card Count Counter"
+  ],
+  "recommended_stack": [
+    "Shopify Plus",
+    "Vue.js",
+    "Tailwind CSS"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "-apple-system",
+      "Apple Color Emoji",
+      "Arial",
+      "BlinkMacSystemFont",
+      "Cambria",
+      "Cantarell",
+      "Consolas",
+      "Courier New",
+      "Droid Sans",
+      "Fira Sans",
+      "Frank Ruhl Libre",
+      "GTUltra",
+      "GTUltraFine",
+      "Georgia",
+      "Helvetica"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

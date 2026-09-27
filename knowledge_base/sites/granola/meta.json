@@ -1,0 +1,46 @@
+{
+  "slug": "granola",
+  "name": "Granola",
+  "url": "https://www.granola.ai",
+  "category": "AI-Native Applications",
+  "rank": 8,
+  "design_style": "Serene AI Notepad / Split Human-AI Meeting Notes",
+  "ui_highlights": "Blends human note-taking with AI enhancements; minimal distraction-free typography; ambient status.",
+  "patterns_to_imitate": "Split human-typed notes and AI-enhanced summaries; ambient audio recording status indicator; minimal toolbar.",
+  "key_components": [
+    "Split Note Column",
+    "Recording Status Pulse",
+    "Clean Markdown Toolbar"
+  ],
+  "recommended_stack": [
+    "React",
+    "Electron",
+    "Tailwind CSS"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Apple Color Emoji",
+      "Consolas",
+      "Courier New",
+      "Liberation Mono",
+      "Menlo",
+      "Monaco",
+      "Noto Color Emoji\")",
+      "SFMono-Regular",
+      "Segoe UI Emoji",
+      "Segoe UI Symbol",
+      "inherit",
+      "melange",
+      "melange Fallback",
+      "monospace)",
+      "quadrant"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

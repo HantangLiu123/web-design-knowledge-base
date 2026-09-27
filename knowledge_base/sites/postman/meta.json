@@ -1,0 +1,46 @@
+{
+  "slug": "postman",
+  "name": "Postman",
+  "url": "https://www.postman.com",
+  "category": "Developer Tools & Infrastructure",
+  "rank": 10,
+  "design_style": "Heavy Multi-Tab Workspace / JSON Inspector",
+  "ui_highlights": "Complex desktop-grade API client on the web; multi-tab request builder; collapsible JSON response viewer.",
+  "patterns_to_imitate": "Tabbed request workspace; collapsible JSON tree inspector; environment variable dropdowns; mock server builder.",
+  "key_components": [
+    "Tabbed Request Bar",
+    "JSON Syntax Fold Viewer",
+    "Environment Dropdown"
+  ],
+  "recommended_stack": [
+    "React",
+    "Redux",
+    "Custom Webpack/DOM Components"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "-apple-system",
+      "Apple Color Emoji",
+      "Arial",
+      "BlinkMacSystemFont",
+      "Consolas",
+      "Courier New",
+      "Helvetica",
+      "Helvetica Neue",
+      "IBM Plex Mono",
+      "Liberation Mono",
+      "Menlo",
+      "Monaco",
+      "Noto Color Emoji\")",
+      "Noto Sans",
+      "Roboto"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

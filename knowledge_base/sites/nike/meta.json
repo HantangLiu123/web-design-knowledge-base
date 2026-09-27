@@ -1,0 +1,49 @@
+{
+  "slug": "nike",
+  "name": "Nike",
+  "url": "https://www.nike.com",
+  "category": "E-Commerce & Direct-to-Consumer (D2C)",
+  "rank": 10,
+  "design_style": "High-Energy Athletic / Nike By You 3D Customizer",
+  "ui_highlights": "Bold athletic typography; multi-attribute faceted filtering; interactive 3D shoe customization engine.",
+  "patterns_to_imitate": "Nike By You 3D sneaker colorway customizer; multi-tiered sticky filter drawer; endless scroll grid.",
+  "key_components": [
+    "3D Shoe Customizer",
+    "Faceted Filter Drawer",
+    "Wishlist Heart Toggle",
+    "Size Picker"
+  ],
+  "recommended_stack": [
+    "React",
+    "WebGL",
+    "Node.js Microservices"
+  ],
+  "detected_frameworks": [
+    "Next.js"
+  ],
+  "typography": {
+    "font_families": [
+      "Arial",
+      "Helvetica",
+      "Helvetica Neue",
+      "Helvetica Now Display Medium",
+      "Helvetica Now Text",
+      "Helvetica Now Text Medium",
+      "Neue Frutiger Arabic",
+      "Nike Futura",
+      "Nike Futura ND",
+      "Nike TG",
+      "Palatino LT Pro Light",
+      "VideoJS",
+      "inherit",
+      "monospace",
+      "nike-glyphs"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}

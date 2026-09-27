@@ -1,0 +1,33 @@
+{
+  "slug": "behance",
+  "name": "Behance",
+  "url": "https://www.behance.net",
+  "category": "Community, Educational & Lifestyle",
+  "rank": 10,
+  "design_style": "Heavy Creative Case Study / Floating Appreciation Bar",
+  "ui_highlights": "Long-form creative case study viewer; floating appreciation/like widget; creative tool badges (Photoshop, etc).",
+  "patterns_to_imitate": "Floating sticky appreciation bar; project credit breakdown; creative tool badge tags.",
+  "key_components": [
+    "Floating Appreciation Bar",
+    "Tool Badge Tag",
+    "Project Credit Drawer"
+  ],
+  "recommended_stack": [
+    "React",
+    "Next.js",
+    "Adobe Spectrum"
+  ],
+  "detected_frameworks": [],
+  "typography": {
+    "font_families": [
+      "Inter",
+      "sans-serif"
+    ],
+    "font_links": []
+  },
+  "deliverables": {
+    "tokens": "tokens.json",
+    "css_variables": "extracted_variables.css",
+    "teardown": "UX_TEARDOWN_REPORT.md"
+  }
+}
